@@ -407,11 +407,15 @@ class Player(object):
 		if (self.newRating < 500):
 			self.newRating = 500
 			
-		if (self.newRating < 1000): #believes all lousy players can improve :))
-			sigmaPrime += math.sqrt(1000 - self.newRating)
-		self.newRatingDeviation = round(math.sqrt(sigmaPrime),1) + 70
-
+		#if (self.newRating < 1000): #believes all lousy players can improve :))
+		#	sigmaPrime += math.sqrt(1000 - self.newRating)
+		self.newRatingDeviation = round(math.sqrt(sigmaPrime),1)
 		
+		if (self.newRatingDeviation < 80):
+			if(self.newRating < 1800):
+				self.newRatingDeviation = 80  #minimum value for deviation		
+		if (self.newRatingDeviation < 50):
+			self.newRatingDeviation = 50
 
 class Round(object):
 
@@ -478,7 +482,7 @@ class PlayerList(object): # a global ratings list
 			next(f) # skip headings
 
 			for row in f:
-				print row
+				#print row
 				nick = row[0:4]
 				state = row[5:8]
 				name = row[9:29].strip()  # strip() removes extra spaces, like perl's chomp()

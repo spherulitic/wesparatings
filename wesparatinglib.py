@@ -99,11 +99,9 @@ class Tournament(object):
           currentPlayer = self.globalList.getPlayerByName(playerName)
 
         currentSection.addPlayer(currentPlayer)
-        if not currentPlayer.isUnrated():
+        if not currentPlayer.isUnrated:
           currentPlayer.adjustInitialDeviation(self.tournamentDate)
         currentPlayer.setLastPlayed(self.tournamentDate)
-        ### HERE is where we need to adjust the player's initial deviation
-        ### based on the difference between their lastPlayed date and the tournament date
 
         # TOU FORMAT:
         # Mark Nyman           2488  16 2458  +4 2489 +25 2392   2  345  +8  348
@@ -170,13 +168,23 @@ class Tournament(object):
   #####     using the previously calculated rating as their initial rating
   #####     until the output rating for these players equals the input rating
   #####   THEN for rated players only:
+    converged = False
+    iterations = 0
+    MAX_ITERATIONS = 100
     for s in self.sections:
-      for p in s.getPlayers():
+      while not converged and iterations < MAX_ITERATIONS: 
+        converged = True
+        for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
+          preRating = p.getInitRating()
+          p.calcNewRatingBySpread()
+          converged = converged and (preRating == p.getNewRating())
+          p.setInitRating(p.getNewRating()) 
+          p.setInitDeviation(MAX_DEVIATION)
+#          print "Rating unrated player " + str(p) + ": " + str(p.getNewRating()) + "\n"
+        iterations = iterations + 1 
+          
+      for p in [ dude for dude in s.getPlayers() if not dude.isUnrated ]:
         p.calcNewRatingBySpread()
-
-  def calcInitialRatings(self):
-    pass
-    
 
   def outputResults(self, outputFile):#now accepts 2 input (20161214)
         # handle should be open for writing
@@ -272,6 +280,7 @@ class Player(object):
     self.newRatingDeviation = 0.0
     self.games = [] # list of Game objects
     self.lastPlayed = datetime.date(1999, 12, 31) 
+    self.isUnrated = False
 
   def __str__(self):
     return self.name
@@ -291,20 +300,21 @@ class Player(object):
     return self.losses
   def getSpread(self):
     return self.spread
-  def isUnrated(self):
-    return self.careerGames == 0
     
-  def setInitRating(self, rating, dev=400):
+  def setInitRating(self, rating, dev=MAX_DEVIATION):
     self.initRating = rating
     self.initRatingDeviation = dev
     
     if (self.initRatingDeviation == 0):
-      self.initRatingDeviation = 400
+      self.initRatingDeviation = MAX_DEVIATION
     else:
       self.initRatingDeviation = dev
 
     self.newRating = rating
     self.newRatingDeviation = dev
+
+  def setInitDeviation(self, deviation):
+    self.initRatingDeviation = deviation
 
   def setCareerGames(self, games):
     self.careerGames = games
@@ -333,6 +343,8 @@ class Player(object):
     return self.newRatingDeviation
   def getCareerGames(self):
     return self.careerGames
+  def setUnrated(self, unrated):
+    self.isUnrated = unrated
 
   def getLastPlayed(self):
     return self.lastPlayed
@@ -379,9 +391,7 @@ class Player(object):
     
     inactiveDays = (tournamentDate - self.lastPlayed).days
 #    print "Inactive Days: " + str(inactiveDays)
-    self.initRatingDeviation = math.sqrt(math.pow(self.initRatingDeviation, 2) + (math.pow(c, 2)*inactiveDays))
-    if self.initRatingDeviation > MAX_DEVIATION:
-      self.initRatingDeviation = MAX_DEVIATION
+    self.initRatingDeviation = min(math.sqrt(math.pow(self.initRatingDeviation, 2) + (math.pow(c, 2)*inactiveDays)), MAX_DEVIATION)
           
 
   def calcNewRatingBySpread(self): #this rates 1 player
@@ -543,11 +553,12 @@ class PlayerList(object): # a global ratings list
     #  for player in allPlayers.itervalues():
 #    print "Name: {0}, Initial Rating: {1}, Career Games: {2}, Last Played: {3}".format(player.getName(), player.getInitRating(), player.getCareerGames(), player.getLastPlayed())
     
-  def addNewPlayer(self, player, initRating=1500, careerGames=0, lastPlayed=datetime.date.today(), ratingDeviation=500):
+  def addNewPlayer(self, player, initRating=1500, careerGames=0, lastPlayed=datetime.date.today(), ratingDeviation=MAX_DEVIATION):
     self.allPlayers[player.getName()] = player
     player.setInitRating(initRating, ratingDeviation)
     player.setCareerGames(careerGames)
     player.setLastPlayed(lastPlayed)
+    player.setUnrated(careerGames==0)
 
 
   def getPlayerByName(self, name):

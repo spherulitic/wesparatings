@@ -8,6 +8,8 @@ import sys
 
 global tournamentDate
 tournamentDate = 20060101
+global MAX_DEVIATION
+MAX_DEVIATION = 400.0
 
 class Tournament(object):
   def checkIndex(self,ratfile,toufile):
@@ -97,6 +99,9 @@ class Tournament(object):
           currentPlayer = self.globalList.getPlayerByName(playerName)
 
         currentSection.addPlayer(currentPlayer)
+        if not currentPlayer.isUnrated():
+          currentPlayer.adjustInitialDeviation(self.tournamentDate)
+        currentPlayer.setLastPlayed(self.tournamentDate)
         ### HERE is where we need to adjust the player's initial deviation
         ### based on the difference between their lastPlayed date and the tournament date
 
@@ -213,8 +218,8 @@ class Tournament(object):
     outFile.write("NICK     {:20}{:5}{:5} {:9}{:6}\n".format("Name", "Games", " Rat", "Lastplayed", "New Dev"))
     for p in sorted(self.globalList.getAllPlayers().values(), key=lambda p: (p.getNewRating()), reverse=True):
   
-    if (p.getLastPlayed().strftime('%Y%m%d') > 20051231): #exterminate the old
-      outFile.write("         {:20}{:5}{:5} {:9}{:6} \n".format(p.getName(), p.getCareerGames(), p.getNewRating(), p.getLastPlayed().strftime('%Y%m%d'), p.newRatingDeviation))
+      if (p.getLastPlayed().strftime('%Y%m%d') > 20051231): #exterminate the old
+        outFile.write("         {:20}{:5}{:5} {:9}{:6} \n".format(p.getName(), p.getCareerGames(), p.getNewRating(), p.getLastPlayed().strftime('%Y%m%d'), p.newRatingDeviation))
   #inserted p.getNewLastPlayed on 15th Dec
   #print "This tournament's rating is complete :)"
 class Section(object):
@@ -367,6 +372,18 @@ class Player(object):
   def getOpponents(self):
     return [self.getOpponentByGame(g) for g in self.games]   # returns a list of all opponents
 
+  def adjustInitialDeviation(self, tournamentDate):
+    c = 10
+#    print "Adjusting deviation for " + str(self)
+#    print "\nBefore: " + str(self.initRatingDeviation) + "\n"
+    
+    inactiveDays = (tournamentDate - self.lastPlayed).days
+#    print "Inactive Days: " + str(inactiveDays)
+    self.initRatingDeviation = math.sqrt(math.pow(self.initRatingDeviation, 2) + (math.pow(c, 2)*inactiveDays))
+    if self.initRatingDeviation > MAX_DEVIATION:
+      self.initRatingDeviation = MAX_DEVIATION
+          
+
   def calcNewRatingBySpread(self): #this rates 1 player
     """
     An implementation of the Norwegian rating system.
@@ -507,7 +524,7 @@ class PlayerList(object): # a global ratings list
         
         try:
           lastPlayed = datetime.date(int(row[40:44]),int(row[44:46]), int(row[46:48])) 
-          #print "Last played:" + str(lastPlayed)
+          print name + " last played: " + str(lastPlayed)
         except ValueError:
           lastPlayed = datetime.date.today()
 

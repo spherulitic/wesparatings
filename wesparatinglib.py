@@ -226,8 +226,11 @@ class Tournament(object):
     outFile.write("NICK     {:20}{:5}{:5} {:9}{:6}\n".format("Name", "Games", " Rat", "Lastplayed", "New Dev"))
     for p in sorted(self.globalList.getAllPlayers().values(), key=lambda p: (p.getNewRating()), reverse=True):
   
-      if (p.getLastPlayed().strftime('%Y%m%d') > 20051231): #exterminate the old
-        outFile.write("         {:20}{:5}{:5} {:9}{:6} \n".format(p.getName(), p.getCareerGames(), p.getNewRating(), p.getLastPlayed().strftime('%Y%m%d'), p.newRatingDeviation))
+	try:
+		if (p.getLastPlayed().strftime('%Y%m%d') > 20051231): #exterminate the old
+			outFile.write("         {:20}{:5}{:5} {:9}{:6} \n".format(p.getName(), p.getCareerGames(), p.getNewRating(), p.getLastPlayed().strftime('%Y%m%d'), p.newRatingDeviation))
+	except ValueError:
+		print str(p.getName) + "'s lastPlayed was" + str(p.getLastPlayed())
   #inserted p.getNewLastPlayed on 15th Dec
   #print "This tournament's rating is complete :)"
 class Section(object):
@@ -388,7 +391,6 @@ class Player(object):
 	c = 10
 #    print "Adjusting deviation for " + str(self)
 #    print "\nBefore: " + str(self.initRatingDeviation) + "\n"
-    
 
 	inactiveDays = int((tournamentDate - self.lastPlayed).days)
 	#DEBUG:
@@ -551,13 +553,19 @@ class PlayerList(object): # a global ratings list
 		  except ValueError:
 			print "One last try on" + str(ratfile) + "!"
 			logFile.write("Problem with ratfile" + str(ratfile) + "\n")
+			
 			try:
-				lastPlayed = datetime.date(int(row[41:45]),int(row[45:47]), int(row[47:49])) 
-					
+				lastPlayed = datetime.date(int(row[39:43]),int(row[43:45]), int(row[45:47]))
+				print "Reading 1 column to the left"
+			
 			except ValueError:
-				print "I give up!!!"
-				lastPlayed = "20060101"
-
+				try:
+					lastPlayed = datetime.date(int(row[41:45]),int(row[45:47]), int(row[47:49])) 
+					print "Reading 1 column to the right"
+				except ValueError:
+					print "I give up!!!"
+					lastPlayed = int("20060101")
+	
 		
         try:
           ratingDeviation = float(row[49:])

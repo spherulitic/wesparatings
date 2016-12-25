@@ -5,7 +5,7 @@ import string
 import math
 import os 
 import sys
-
+import time 
 global tournamentDate
 tournamentDate = 20060101
 global MAX_DEVIATION
@@ -385,13 +385,17 @@ class Player(object):
     return [self.getOpponentByGame(g) for g in self.games]   # returns a list of all opponents
 
   def adjustInitialDeviation(self, tournamentDate):
-    c = 10
+	c = 10
 #    print "Adjusting deviation for " + str(self)
 #    print "\nBefore: " + str(self.initRatingDeviation) + "\n"
     
-    inactiveDays = (tournamentDate - self.lastPlayed).days
-#    print "Inactive Days: " + str(inactiveDays)
-    self.initRatingDeviation = min(math.sqrt(math.pow(self.initRatingDeviation, 2) + (math.pow(c, 2)*inactiveDays)), MAX_DEVIATION)
+
+	inactiveDays = int((tournamentDate - self.lastPlayed).days)
+	#DEBUG:
+	#print tournamentDate
+	#print self.lastPlayed
+	#print "Inactive Days: " + str(inactiveDays)
+	self.initRatingDeviation = min(math.sqrt(math.pow(int(self.initRatingDeviation), 2) + (math.pow(c, 2)*inactiveDays)), MAX_DEVIATION)
           
 
   def calcNewRatingBySpread(self): #this rates 1 player
@@ -531,13 +535,30 @@ class PlayerList(object): # a global ratings list
         careerGames = int(row[30:34]) # python makes you explicitly change a string like "345" into an int 345
         #print "Career Games:" + str(careerGames)
         rating = int(row[35:39])
-        
+
+		
+#DEVELOPING TOLERANCE FOR HORRIBLY FORMATTED TOU FILES GRRR!
+        logFile = open('log.txt', 'a+')
         try:
           lastPlayed = datetime.date(int(row[40:44]),int(row[44:46]), int(row[46:48])) 
-          print name + " last played: " + str(lastPlayed)
-        except ValueError:
-          lastPlayed = datetime.date.today()
 
+          #print name + " last played: " + str(lastPlayed)
+        except ValueError:
+		  try:
+			lastPlayed = datetime.date(int(row[40:44]),int(row[46:48]), int(row[44:46])) 
+		  #lastPlayed = datetime.date.today()
+			print "Corrected weird date:" + str(int(row[40:44]))+str(int(row[44:46]))+str(int(row[46:48]))
+		  except ValueError:
+			print "One last try on" + str(ratfile) + "!"
+			logFile.write("Problem with ratfile" + str(ratfile) + "\n")
+			try:
+				lastPlayed = datetime.date(int(row[41:45]),int(row[45:47]), int(row[47:49])) 
+					
+			except ValueError:
+				print "I give up!!!"
+				lastPlayed = "20060101"
+
+		
         try:
           ratingDeviation = float(row[49:])
         except ValueError:

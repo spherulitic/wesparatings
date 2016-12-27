@@ -1,61 +1,55 @@
-Section <bound method Section.getName of <wesparatinglib.Section object at 0x02B82C30>>
-NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
-Section <bound method Section.getName of <wesparatinglib.Section object at 0x029EE2D0>>
-NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
-Section <bound method Section.getName of <wesparatinglib.Section object at 0x029EE490>>
-NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
-Section <bound method Section.getName of <wesparatinglib.Section object at 0x02FE2E10>>
+Section <bound method Section.getName of <wesparatinglib.Section object at 0x0000000002D6E828>>
 NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
 Ejenas Douglas        34.5-10.5     2987     1500     1500
 Julius Ufuoma         33.0-12.0     1893     1500     1500
 Offodum Chukwuka      31.5-13.5     2618     1500     1500
 Phacharee Soonklang   28.0-17.0      766     1500     1500
 Sandy Kurnia Aflian   26.5-18.5      483     1500     1500
-Lawrence Dave Candia  26.5-18.5      421     1371     1375
-Nidhi Singhvi         26.0-19.0     1415     1495     1551
-Louis Drei Candia     26.0-19.0      895     1442     1452
-Douglas Tsang         26.0-19.0        7     1096     1226
+Lawrence Dave Candia  26.5-18.5      421     1371     1374
+Nidhi Singhvi         26.0-19.0     1415     1494     1550
+Louis Drei Candia     26.0-19.0      895     1443     1452
+Douglas Tsang         26.0-19.0        7     1096     1225
 Lear Jet De la Cruz   25.5-19.5     1641     1500     1500
 Hyder Quraishi        25.5-19.5      179     1403     1423
-Dinna Lim             25.5-19.5      178     1238     1356
-Maureen See           25.0-20.0      762     1487     1420
-Kumaila Hakimah       25.0-20.0      654     1349     1447
-Harryadi Hermanto     25.0-20.0      341     1500     1398
+Dinna Lim             25.5-19.5      178     1238     1355
+Maureen See           25.0-20.0      762     1486     1420
+Kumaila Hakimah       25.0-20.0      654     1348     1446
+Harryadi Hermanto     25.0-20.0      341     1500     1397
 Owuga Moses Adeh      24.0-21.0      983     1500     1500
 Lalantha Amarasinghe  24.0-21.0      629     1398     1413
-Zeenath Ariff         24.0-21.0      403     1374     1417
-Maria Soares          24.0-21.0      301     1265     1374
-Tawanjames Barwell    24.0-21.0      189     1462     1440
-Farida Akbarally      24.0-21.0      -46     1332     1337
-Edwin Chan            24.0-21.0     -170     1321     1320
-Sharon Sorensen       24.0-21.0     -376     1449     1348
-Nabena B Hamalatha    23.5-21.5     1126     1216     1345
+Zeenath Ariff         24.0-21.0      403     1370     1416
+Maria Soares          24.0-21.0      301     1263     1373
+Tawanjames Barwell    24.0-21.0      189     1469     1444
+Farida Akbarally      24.0-21.0      -46     1330     1336
+Edwin Chan            24.0-21.0     -170     1320     1319
+Sharon Sorensen       24.0-21.0     -376     1448     1348
+Nabena B Hamalatha    23.5-21.5     1126     1212     1345
 Pansub Direkwatana    23.5-21.5      218     1164     1343
 Shafique Ahmed        23.5-21.5     -541     1324     1297
-Khwanjai Thammaping   23.0-22.0      123     1373     1363
-Jane Walker           23.0-22.0      111     1227     1307
+Khwanjai Thammaping   23.0-22.0      123     1372     1362
+Jane Walker           23.0-22.0      111     1226     1306
 Catherine Tong        22.5-22.5      436     1321     1371
-Tony Kalayzich        22.5-22.5      353     1401     1386
-Chris Imison          22.5-22.5      266     1342     1329
-Valliammah Thamb      22.5-22.5      124     1256     1303
-Jerry Khoo            22.5-22.5     -318     1184     1321
-Jackie Cheah          22.0-23.0      469     1238     1351
+Tony Kalayzich        22.5-22.5      353     1400     1385
+Chris Imison          22.5-22.5      266     1342     1328
+Valliammah Thamb      22.5-22.5      124     1254     1302
+Jerry Khoo            22.5-22.5     -318     1173     1320
+Jackie Cheah          22.0-23.0      469     1236     1350
 Rian Setiawan         21.5-23.5      262     1500     1500
-Jarrett Tan           21.5-23.5      246      889     1226
-Isao Takemura         21.5-23.5     -211      911     1132
-Andri Prasetyo        21.5-23.5     -310     1197     1249
+Jarrett Tan           21.5-23.5      246      889     1225
+Isao Takemura         21.5-23.5     -211      913     1132
+Andri Prasetyo        21.5-23.5     -310     1197     1248
 Krittapat Chulas      21.5-23.5     -318     1500     1500
-Jenny Coetzee         21.5-23.5     -857     1094     1170
-Sunny Wright          20.5-24.5      364     1272     1287
-Liz Jackman           20.5-24.5      195     1115     1219
+Jenny Coetzee         21.5-23.5     -857     1093     1169
+Sunny Wright          20.5-24.5      364     1271     1286
+Liz Jackman           20.5-24.5      195     1114     1219
 Ashfaque Khatti       20.5-24.5     -243     1500     1500
 Napat Narinsuksant    20.5-24.5     -528     1500     1500
-Kay Anderson          20.5-24.5    -1059     1133     1139
-Tengku Ariff Shah     19.5-25.5     -188     1107     1263
+Kay Anderson          20.5-24.5    -1059     1131     1138
+Tengku Ariff Shah     19.5-25.5     -188     1107     1262
 Percy Fernando        19.5-25.5     -570     1500     1500
-Rex D'Souza           18.5-26.5      667     1374     1364
-Ruby Sim              18.5-26.5     -175     1236     1225
-Sharon Chia           16.5-28.5    -1092      893     1192
+Rex D'Souza           18.5-26.5      667     1372     1363
+Ruby Sim              18.5-26.5     -175     1233     1224
+Sharon Chia           16.5-28.5    -1092      892     1191
 Candra Pambudi        16.5-28.5    -1789     1500     1500
 Annely Prima Santoso  15.5-29.5    -2676     1500     1500
 Guntur Muhd Rafly     13.5-31.5    -2088     1500     1500

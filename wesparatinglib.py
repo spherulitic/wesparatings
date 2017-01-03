@@ -459,16 +459,22 @@ class Player(object):
     muPrime = sigmaPrime * ( (mu/(sigma**2)) + sum2) #calculate new rating using NEW sigmaPrime
     
 	#handle short tourneys
+    
+    change = muPrime - mu
+
+    if (change > len(self.games)*50.0):
+	  change = 50.0*len(self.games)
+	  #cap change 
+	  
     if (len(self.games) < 8):
-	  change = muPrime - mu
 	  #change *= math.sqrt(len(self.games)/8)
-	  change *= len(self.games)/8.0
-	  muPrime = mu + change
-	
+	  change *= len(self.games)/4.0
+     
+    muPrime = mu + change
     self.newRating = int(round(muPrime))
-  
-    if (self.newRating < 500):
-      self.newRating = 500
+    
+    if (self.newRating < 300):
+      self.newRating = 300
       
     #if (self.newRating < 1000): #believes all lousy players can improve :))
     #  sigmaPrime += math.sqrt(1000 - self.newRating)

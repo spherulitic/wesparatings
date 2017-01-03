@@ -1,57 +1,241 @@
-Section <bound method Section.getName of <wesparatinglib.Section object at 0x0000000002D6E828>>
+Section PREMIER
 NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
-Ejenas Douglas        34.5-10.5     2987     1500     1500
-Julius Ufuoma         33.0-12.0     1893     1500     1500
-Offodum Chukwuka      31.5-13.5     2618     1500     1500
-Phacharee Soonklang   28.0-17.0      766     1500     1500
-Sandy Kurnia Aflian   26.5-18.5      483     1500     1500
-Lawrence Dave Candia  26.5-18.5      421     1371     1374
-Nidhi Singhvi         26.0-19.0     1415     1494     1550
-Louis Drei Candia     26.0-19.0      895     1443     1452
-Douglas Tsang         26.0-19.0        7     1096     1225
-Lear Jet De la Cruz   25.5-19.5     1641     1500     1500
-Hyder Quraishi        25.5-19.5      179     1403     1423
-Dinna Lim             25.5-19.5      178     1238     1355
-Maureen See           25.0-20.0      762     1486     1420
-Kumaila Hakimah       25.0-20.0      654     1348     1446
-Harryadi Hermanto     25.0-20.0      341     1500     1397
-Owuga Moses Adeh      24.0-21.0      983     1500     1500
-Lalantha Amarasinghe  24.0-21.0      629     1398     1413
-Zeenath Ariff         24.0-21.0      403     1370     1416
-Maria Soares          24.0-21.0      301     1263     1373
-Tawanjames Barwell    24.0-21.0      189     1469     1444
-Farida Akbarally      24.0-21.0      -46     1330     1336
-Edwin Chan            24.0-21.0     -170     1320     1319
-Sharon Sorensen       24.0-21.0     -376     1448     1348
-Nabena B Hamalatha    23.5-21.5     1126     1212     1345
-Pansub Direkwatana    23.5-21.5      218     1164     1343
-Shafique Ahmed        23.5-21.5     -541     1324     1297
-Khwanjai Thammaping   23.0-22.0      123     1372     1362
-Jane Walker           23.0-22.0      111     1226     1306
-Catherine Tong        22.5-22.5      436     1321     1371
-Tony Kalayzich        22.5-22.5      353     1400     1385
-Chris Imison          22.5-22.5      266     1342     1328
-Valliammah Thamb      22.5-22.5      124     1254     1302
-Jerry Khoo            22.5-22.5     -318     1173     1320
-Jackie Cheah          22.0-23.0      469     1236     1350
-Rian Setiawan         21.5-23.5      262     1500     1500
-Jarrett Tan           21.5-23.5      246      889     1225
-Isao Takemura         21.5-23.5     -211      913     1132
-Andri Prasetyo        21.5-23.5     -310     1197     1248
-Krittapat Chulas      21.5-23.5     -318     1500     1500
-Jenny Coetzee         21.5-23.5     -857     1093     1169
-Sunny Wright          20.5-24.5      364     1271     1286
-Liz Jackman           20.5-24.5      195     1114     1219
-Ashfaque Khatti       20.5-24.5     -243     1500     1500
-Napat Narinsuksant    20.5-24.5     -528     1500     1500
-Kay Anderson          20.5-24.5    -1059     1131     1138
-Tengku Ariff Shah     19.5-25.5     -188     1107     1262
-Percy Fernando        19.5-25.5     -570     1500     1500
-Rex D'Souza           18.5-26.5      667     1372     1363
-Ruby Sim              18.5-26.5     -175     1233     1224
-Sharon Chia           16.5-28.5    -1092      892     1191
-Candra Pambudi        16.5-28.5    -1789     1500     1500
-Annely Prima Santoso  15.5-29.5    -2676     1500     1500
-Guntur Muhd Rafly     13.5-31.5    -2088     1500     1500
-Juanita Joackim       11.5-33.5    -3443     1500     1500
-Agnes Lip             4.0-41.0     -5707     1500     1500
+Nigel Richards        31.0-14.0     1915     2172     2193
+David Eldar           29.0-16.0     1966     2074     2155
+Ayorinde Saidu        28.0-17.0      551     2057     2033
+Harshan Lamabad       28.0-17.0      104     2026     2003
+Thacha Koowirat       27.0-18.0      388     2013     1991
+Austin Shin           26.0-19.0     1299     2031     2031
+Alastair Richards     26.0-19.0     1135     2068     2074
+Jesse Day             26.0-19.0      622     1932     2048
+Mark Nyman            26.0-19.0     -180     2038     2019
+Pichai Limprasert     25.0-20.0     1413     2034     2078
+Esther Perrins        25.0-20.0      463     1895     1972
+Andrew Fisher         24.5-20.5      249     1943     1970
+David Webb            24.5-20.5     -127     2038     1963
+Cyril Umebiye         24.5-20.5     -480     1906     1860
+Peter Armstrong       24.0-21.0     1153     2079     2057
+Anthony Ikolo         24.0-21.0      230     1834     1893
+Waseem Khatri         24.0-21.0     -122     1869     1857
+Hubert Wee            23.5-21.5     -428     2008     1967
+Toh Weibin            23.0-22.0      784     1932     1980
+Komol Panyasoponlert  23.0-22.0      211     2048     2020
+Jakkrit Klaphajone    23.0-22.0      -55     1935     1927
+Akkarapol Kwhansak    23.0-22.0      -61     1855     1869
+Ricky Purnomo         23.0-22.0     -268     1913     1886
+Odette Rio            23.0-22.0     -574     1927     1859
+David Wiegand         22.5-22.5      410     2034     2019
+Russell Honeybun      22.0-23.0     -227     1830     1872
+Lyres Freeth          22.0-23.0     -241     1949     1869
+Ben Schoenbrun        21.5-23.5       98     1830     1881
+Cheah Siu Hean        21.5-23.5       82     1766     1822
+Gerry Carter          21.5-23.5     -741     1848     1810
+Chollapat Itthiaree   21.0-24.0     -365     1901     1895
+Stefan Rau            21.0-24.0     -701     1864     1836
+Rex Ogbakpa           20.5-24.5      208     2094     1915
+Weera Saengsit        20.0-25.0     -499     1807     1844
+Manop Phiphat         20.0-25.0     -602     1725     1733
+Alex Tan              19.5-25.5     -874     1784     1746
+Joanne Craig          19.0-26.0      303     1900     1949
+Ron Baginski          19.0-26.0       86     1652     1728
+Marlon Prudencio      19.0-26.0      -54     1828     1844
+Mohan Chunkath        19.0-26.0     -734     1708     1743
+Femi Awowade          18.5-26.5     -989     1813     1720
+Varisht Hingorani     18.0-27.0       71     1586     1782
+Tony Sim              17.5-27.5    -1575     1832     1746
+Roland Filio          16.5-28.5    -1008     1606     1689
+Jeremy Khoo           16.0-29.0    -1041     1780     1730
+Leonora Labog         15.5-29.5    -1795     1753     1668
+
+
+Section MASTERS
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Chang Ching Wei       30.0-15.0     1793     1808     1877
+Raymond Gbaraba       29.0-16.0     1656     1774     1883
+Andy Kurnia           27.5-17.5     2142     1716     1825
+Bright Idahosa        27.0-18.0      774     1729     1789
+Kiattisak Thepsuriya  26.5-18.5      609     1489     1738
+Irfan Siddiqui        26.0-19.0     1372     1807     1809
+Yi En Gan             26.0-19.0      535     1787     1773
+Mythili Rudra         26.0-19.0      262     1690     1679
+Carmel Dodd           26.0-19.0     -780     1620     1620
+Sinatarn Pattanasuwa  25.5-19.5      447     1771     1741
+Abdullah Abbasi       25.5-19.5       65     1664     1656
+Osikhena Ojior        25.0-20.0      428     1810     1733
+Fadlan Satria         24.5-20.5      308     1626     1723
+Bob Jackman           24.5-20.5      300     1779     1702
+Indunil Amarasinghe   24.5-20.5       76     1559     1667
+Tim Weiss             24.0-21.0      832     1800     1790
+Yong Jian Rong        23.5-21.5      755     1805     1785
+Mpakaboari Jack       23.5-21.5      633     1632     1687
+Puttapong Moonsarn    23.5-21.5      199     1916     1757
+Eden Choo             23.5-21.5       75     1366     1656
+Albert Martono        23.5-21.5     -114     1643     1657
+Melvin Dalangin       23.0-22.0      -80     1667     1592
+Jocelyn Lor           22.5-22.5      680     1588     1731
+Andrew Golding        22.5-22.5      210     1631     1644
+Alexis Joyosa         22.5-22.5       62     1580     1687
+Tim Mason             22.5-22.5       29     1623     1676
+Karen Richards        22.5-22.5    -1415     1576     1534
+Olobatoke Aka         22.0-23.0      215     1749     1691
+Kong Chock Heng       21.5-23.5      163     1704     1686
+Christian Oktavius    21.5-23.5       99     1646     1642
+Noel Barrett          21.5-23.5     -459     1643     1572
+Leon Tan Zheng Han    21.5-23.5    -1083     1622     1577
+Edie Mueller          21.0-24.0     -155     1602     1613
+Sanjoy Gupta          21.0-24.0     -293     1648     1627
+Rocky Sharma          20.5-24.5     -284     1575     1560
+Jowar Ayuno           20.5-24.5    -1029     1726     1514
+Tan Jin Chor          19.5-25.5      145     1613     1643
+Chuah Sim Swee        19.5-25.5      -42     1515     1612
+Terry Kang Rau        19.5-25.5     -374     1552     1553
+David Vanzyl          19.0-26.0     -359     1597     1578
+Alexander Gozali      19.0-26.0     -701     1428     1486
+Heather Long          19.0-26.0     -787     1592     1519
+Mohammad Inayatullah  19.0-26.0    -1471     1598     1521
+Tony Hunt             18.5-26.5     -541     1656     1602
+Gora Sulaiman         18.0-27.0    -1308     1523     1430
+Paul Richards AUS     17.0-28.0     -848     1398     1448
+Rosario Lambino       8.0-37.0     -2741     1438     1301
+
+
+Section INTERMEDIATE
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Ehibudu Chukwudi      34.5-10.5     2482     1764     1764
+Olajide Akinyemi      28.5-16.5     1238     1658     1613
+Yuda Eka Prasetia     28.5-16.5     1211     1635     1635
+Dayo Tayo             27.5-17.5     1033     1812     1604
+Ryan Wee              27.0-18.0     1039     1465     1528
+Shaikh Ahmed          26.5-18.5      689     1478     1540
+Supriya Devnani       26.5-18.5      199     1367     1375
+Cecil Fernandes       26.0-19.0      415     1493     1427
+Elijah Kumar          26.0-19.0      252     1363     1363
+Lewis Hawkins         26.0-19.0      192     1355     1457
+Sunny Bhatia          25.5-19.5     1225     1478     1510
+Adam Azlan            25.0-20.0     1408     1255     1558
+Tengku Asri           25.0-20.0      951     1459     1472
+Peter Arreola         25.0-20.0      709     1459     1510
+Rajiv Antao           25.0-20.0     -189     1327     1411
+Mohd Ali Ismail       24.5-20.5      218     1326     1445
+Rastra Teguh          24.0-21.0      475     1497     1478
+Priya Fernando        24.0-21.0      402     1452     1452
+Sally Martin          24.0-21.0      345     1374     1459
+Krishna Kumar         24.0-21.0       58     1714     1382
+Calynn Tan            24.0-21.0      -30     1543     1426
+Muhd Wildan Mubarok   24.0-21.0     -336     1434     1299
+Jessie Lim            23.0-22.0      415     1262     1389
+Ng Chee Eng           23.0-22.0      332     1291     1426
+Alan Burn             23.0-22.0       83     1281     1361
+Daniel Milton         23.0-22.0     -302     1388     1387
+John Barker           23.0-22.0     -337     1341     1360
+Ben Filio             23.0-22.0     -515     1300     1301
+Dianne Ward           22.0-23.0      553     1475     1497
+Sudhir Kamath         22.0-23.0      229     1449     1410
+Lennie D'Souza        22.0-23.0      198     1335     1392
+Marie Fernandes       22.0-23.0     -404     1392     1318
+Tan Khee Chiang       22.0-23.0     -571     1392     1258
+Cori Lodder           22.0-23.0     -935     1050     1219
+Judy Romann           21.5-23.5      495     1364     1450
+Antonio Malonzo       21.5-23.5     -341     1338     1348
+Ananto Widodo         21.0-24.0       11     1311     1296
+Radhika Mahalingaiah  21.0-24.0     -492     1425     1261
+Ian Ting              21.0-24.0     -609     1390     1373
+Larry Serrano         21.0-24.0    -1084     1327     1226
+Mangala Bhandarkar    20.0-25.0      810     1403     1427
+Arul Inthirarajah     20.0-25.0      673     1504     1468
+Caroline Scowcroft    20.0-25.0     -247     1206     1220
+Seshi Ramanathan      20.0-25.0     -693     1427     1304
+Ebikeme Adowei        20.0-25.0     -694     1386     1272
+Pat Schuberg          20.0-25.0     -839     1264     1236
+Anne Goldstein        19.0-26.0     -380     1119     1164
+Lee Yee Fun           19.0-26.0     -504     1330     1232
+Peter Bauer           19.0-26.0     -943     1327     1260
+Olga Visser           19.0-26.0    -1303     1275     1220
+Tan Mun Ri            18.0-27.0     -769     1129     1179
+Betty Eriksen         16.5-28.5     -226     1081     1175
+Nichelle Eng          16.5-28.5    -1064     1030     1104
+Mahboob Khan          16.0-29.0     -999     1229     1200
+Alberto Palomo        15.0-30.0    -1654     1351     1130
+Jerry Jang            14.0-31.0    -1880     1192     1057
+
+Ehibudu Chukwudi      is unrated 
+Elijah Kumar          is unrated 
+Priya Fernando        is unrated 
+Yuda Eka Prasetia     is unrated 
+
+Section OPEN
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Ejenas Douglas        34.5-10.5     2987     1698     1698
+Julius Ufuoma         33.0-12.0     1893     1596     1596
+Offodum Chukwuka      31.5-13.5     2618     1594     1594
+Phacharee Soonklang   28.0-17.0      766     1353     1353
+Sandy Kurnia Aflian   26.5-18.5      483     1147     1147
+Lawrence Dave Candia  26.5-18.5      421     1293     1155
+Nidhi Singhvi         26.0-19.0     1415     1310     1409
+Louis Drei Candia     26.0-19.0      895     1348     1285
+Douglas Tsang         26.0-19.0        7      976     1074
+Lear Jet De la Cruz   25.5-19.5     1641     1441     1441
+Hyder Quraishi        25.5-19.5      179     1204     1261
+Dinna Lim             25.5-19.5      178     1103     1163
+Maureen See           25.0-20.0      762     1341     1252
+Kumaila Hakimah       25.0-20.0      654     1228     1334
+Harryadi Hermanto     25.0-20.0      341     1170     1242
+Owuga Moses Adeh      24.0-21.0      983     1258     1258
+Lalantha Amarasinghe  24.0-21.0      629     1150     1198
+Zeenath Ariff         24.0-21.0      403     1279     1289
+Maria Soares          24.0-21.0      301     1119     1226
+Tawanjames Barwell    24.0-21.0      189     1298     1271
+Farida Akbarally      24.0-21.0      -46     1210     1182
+Edwin Chan            24.0-21.0     -170     1245     1125
+Sharon Sorensen       24.0-21.0     -376     1304     1167
+Nabena B Hamalatha    23.5-21.5     1126     1102     1087
+Pansub Direkwatana    23.5-21.5      218     1086     1191
+Shafique Ahmed        23.5-21.5     -541     1085     1111
+Khwanjai Thammaping   23.0-22.0      123     1112     1150
+Jane Walker           23.0-22.0      111     1086     1116
+Catherine Tong        22.5-22.5      436     1247     1105
+Tony Kalayzich        22.5-22.5      353     1241     1238
+Chris Imison          22.5-22.5      266      889     1072
+Valliammah Thamb      22.5-22.5      124     1127     1085
+Jerry Khoo            22.5-22.5     -318      969     1061
+Jackie Cheah          22.0-23.0      469     1129     1149
+Rian Setiawan         21.5-23.5      262     1113     1113
+Jarrett Tan           21.5-23.5      246      800      934
+Isao Takemura         21.5-23.5     -211      801      882
+Andri Prasetyo        21.5-23.5     -310     1012      963
+Krittapat Chulas      21.5-23.5     -318     1016     1016
+Jenny Coetzee         21.5-23.5     -857      931      927
+Sunny Wright          20.5-24.5      364     1126     1089
+Liz Jackman           20.5-24.5      195      966      964
+Ashfaque Khatti       20.5-24.5     -243      992      992
+Napat Narinsuksant    20.5-24.5     -528      851      851
+Kay Anderson          20.5-24.5    -1059     1018      950
+Tengku Ariff Shah     19.5-25.5     -188      883      996
+Percy Fernando        19.5-25.5     -570      905      905
+Rex D'Souza           18.5-26.5      667     1254     1133
+Ruby Sim              18.5-26.5     -175     1135      953
+Sharon Chia           16.5-28.5    -1092      869      753
+Candra Pambudi        16.5-28.5    -1789      635      635
+Annely Prima Santoso  15.5-29.5    -2676      532      532
+Guntur Muhd Rafly     13.5-31.5    -2088      609      609
+Juanita Joackim       11.5-33.5    -3443      500      500
+Agnes Lip             4.0-41.0     -5707      500      500
+
+Agnes Lip             is unrated 
+Annely Prima Santoso  is unrated 
+Ashfaque Khatti       is unrated 
+Candra Pambudi        is unrated 
+Ejenas Douglas        is unrated 
+Guntur Muhd Rafly     is unrated 
+Juanita Joackim       is unrated 
+Julius Ufuoma         is unrated 
+Krittapat Chulas      is unrated 
+Lear Jet De la Cruz   is unrated 
+Napat Narinsuksant    is unrated 
+Offodum Chukwuka      is unrated 
+Owuga Moses Adeh      is unrated 
+Percy Fernando        is unrated 
+Phacharee Soonklang   is unrated 
+Rian Setiawan         is unrated 
+Sandy Kurnia Aflian   is unrated 
+

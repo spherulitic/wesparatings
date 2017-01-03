@@ -601,6 +601,7 @@ class PlayerList(object): # a global ratings list
         self.allPlayers[name].setInitRating(rating, ratingDeviation)
         self.allPlayers[name].setCareerGames(careerGames)
         self.allPlayers[name].setLastPlayed(lastPlayed)
+        self.allPlayers[name].setUnrated(False)
 
       # output what we have to show the file was parsed
       # note that a dict is unsorted. we can deal with sorting later by converting dict to another data structure
@@ -608,12 +609,12 @@ class PlayerList(object): # a global ratings list
     #  for player in allPlayers.itervalues():
 #    print "Name: {0}, Initial Rating: {1}, Career Games: {2}, Last Played: {3}".format(player.getName(), player.getInitRating(), player.getCareerGames(), player.getLastPlayed())
     
-  def addNewPlayer(self, player, initRating=1500, careerGames=0, lastPlayed=datetime.date.today(), ratingDeviation=MAX_DEVIATION):
+  def addNewPlayer(self, player, initRating=1500, careerGames=0, lastPlayed=datetime.date.today(), ratingDeviation=MAX_DEVIATION, isUnrated=True):
     self.allPlayers[player.getName()] = player
     player.setInitRating(initRating, ratingDeviation)
     player.setCareerGames(careerGames)
     player.setLastPlayed(lastPlayed)
-    player.setUnrated(careerGames==0)
+    player.setUnrated(isUnrated)
 
 
   def getPlayerByName(self, name):

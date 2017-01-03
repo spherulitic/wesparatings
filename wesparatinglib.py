@@ -168,7 +168,7 @@ class Tournament(object):
   #####     using the previously calculated rating as their initial rating
   #####     until the output rating for these players equals the input rating
   #####   THEN for rated players only:
-    MAX_ITERATIONS = 250
+    MAX_ITERATIONS = 25
     for s in self.sections:
       converged = False
       iterations = 0
@@ -459,11 +459,11 @@ class Player(object):
     muPrime = sigmaPrime * ( (mu/(sigma**2)) + sum2) #calculate new rating using NEW sigmaPrime
     
 	#handle short tourneys
-   #if (len(self.games) < 8):
-	#  change = muPrime - mu
-	#  #change *= math.sqrt(len(self.games)/8)
-	#  change *= len(self.games)/8
-	#  muPrime = mu + change
+    if (len(self.games) < 8):
+	  change = muPrime - mu
+	  #change *= math.sqrt(len(self.games)/8)
+	  change *= len(self.games)/8.0
+	  muPrime = mu + change
 	
     self.newRating = int(round(muPrime))
   

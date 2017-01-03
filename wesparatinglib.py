@@ -168,20 +168,21 @@ class Tournament(object):
   #####     using the previously calculated rating as their initial rating
   #####     until the output rating for these players equals the input rating
   #####   THEN for rated players only:
-    converged = False
+    converged = True
     iterations = 0
-    MAX_ITERATIONS = 100
+    MAX_ITERATIONS = 250
     for s in self.sections:
       while not converged and iterations < MAX_ITERATIONS: 
-        converged = True
+        converged = False #i.e. when in the loop and 'False' is returned, keep iterating
         for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
-          preRating = p.getInitRating()
-          p.calcNewRatingBySpread()
-          converged = converged and (preRating == p.getNewRating())
-          p.setInitRating(p.getNewRating()) 
-          p.setInitDeviation(MAX_DEVIATION)
-#          print "Rating unrated player " + str(p) + ": " + str(p.getNewRating()) + "\n"
-        iterations = iterations + 1 
+		  preRating = p.getInitRating()
+		  p.calcNewRatingBySpread() #calculates rating as usual
+		  converged = (converged and (preRating == p.getNewRating()))
+		  #print converged
+		  p.setInitRating(p.getNewRating()) 
+		  p.setInitDeviation(MAX_DEVIATION)
+		  #print "Rating unrated player" + str(p) + ": " + str(p.getNewRating()) + "\n"
+		  iterations = iterations + 1 
           
       for p in [ dude for dude in s.getPlayers() if not dude.isUnrated ]:
         p.calcNewRatingBySpread()
@@ -194,6 +195,8 @@ class Tournament(object):
       outputFile.write("{:21} {:10} {:7} {:8} {:8}".format("NAME", "RECORD", "SPREAD", "OLD RAT", "NEW RAT"))
       outputFile.write("\n")
     for p in sorted(s.getPlayers(), key=lambda x: (x.getWins()*100000)+x.getSpread(), reverse=True):
+      #for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
+		#outputFile.write("{:21} is unrated \n".format(p.getName))
       outputFile.write("{:21} {:10} {:7} {:8} {:8}".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating()))
       outputFile.write("\n")
 

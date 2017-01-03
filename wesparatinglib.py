@@ -168,12 +168,13 @@ class Tournament(object):
   #####     using the previously calculated rating as their initial rating
   #####     until the output rating for these players equals the input rating
   #####   THEN for rated players only:
-    converged = True
-    iterations = 0
     MAX_ITERATIONS = 250
     for s in self.sections:
+      converged = False
+      iterations = 0
+
       while not converged and iterations < MAX_ITERATIONS: 
-        converged = False #i.e. when in the loop and 'False' is returned, keep iterating
+        converged = True #i.e. when in the loop and 'False' is returned, keep iterating
         for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
 		  preRating = p.getInitRating()
 		  p.calcNewRatingBySpread() #calculates rating as usual
@@ -190,16 +191,20 @@ class Tournament(object):
   def outputResults(self, outputFile):#now accepts 2 input (20161214)
         # handle should be open for writing
     for s in self.sections:
-      outputFile.write("Section {0}".format(s.getName))
-      outputFile.write("\n")
-      outputFile.write("{:21} {:10} {:7} {:8} {:8}".format("NAME", "RECORD", "SPREAD", "OLD RAT", "NEW RAT"))
-      outputFile.write("\n")
-    for p in sorted(s.getPlayers(), key=lambda x: (x.getWins()*100000)+x.getSpread(), reverse=True):
-      #for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
-		#outputFile.write("{:21} is unrated \n".format(p.getName))
-      outputFile.write("{:21} {:10} {:7} {:8} {:8}".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating()))
-      outputFile.write("\n")
-
+		outputFile.write("Section {:1}".format(s.getName()))
+		#outputFile.write("\n")
+		outputFile.write("{:21} {:10} {:7} {:8} {:8}".format("NAME", "RECORD", "SPREAD", "OLD RAT", "NEW RAT"))
+		outputFile.write("\n")
+		for p in sorted(s.getPlayers(), key=lambda x: (x.getWins()*100000)+x.getSpread(), reverse=True):
+			outputFile.write("{:21} {:10} {:7} {:8} {:8}".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating()))
+			outputFile.write("\n")
+		
+		outputFile.write("\n") #section break
+		
+		for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
+				outputFile.write("{:21} is unrated \n".format(p.getName()))
+		outputFile.write("\n") #section break
+		
     rootDir = "../"
     touname = self.tournamentName
     for root, dirs, files in os.walk(rootDir):
@@ -209,9 +214,9 @@ class Tournament(object):
     for s in self.sections:
       outFile = open('{0}.ST2'.format(touname), 'a')
       outFile.truncate(0)
-#DEBUG      print "Section {0} \n".format(s.getName)
-      outFile.write("{0} \n".format(s.getName))
-#DEBUG      print "{:21} {:10} {:7} {:8} {:8} {:8} \n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", " New Dev")
+	#DEBUG      print "Section {0} \n".format(s.getName)
+      outFile.write("{0} \n".format(s.getName()))
+	#DEBUG      print "{:21} {:10} {:7} {:8} {:8} {:8} \n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", " New Dev")
       outFile.write("{:21} {:10} {:7} {:8} {:8} {:8}{:8}\n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", "New Dev"))
       for p in sorted(s.getPlayers(), key=lambda x: (x.getWins()*100000)+x.getSpread(), reverse=True):
         #print "{:21} {:10} {:7} {:8} {:8} {:8}".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating(), p.getNewRating()-p.getInitRating())

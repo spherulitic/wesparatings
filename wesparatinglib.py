@@ -447,8 +447,8 @@ class Player(object):
     sum1 = 0.0 
     sum2 = 0.0 
     for m in range(len(rho)): #for each item in the rho list
-      sum1 += 1.0/rho[m] #summation of inverse of uncertainty factors (to find 'effective' deviation)
-      sum2 += nu[m]/rho[m] #summaton of (INDIVIDUAL perfrat divided by opponent's sigma)
+		sum1 += 1.0/rho[m] #summation of inverse of uncertainty factors (to find 'effective' deviation)
+		sum2 += nu[m]/rho[m] #summaton of (INDIVIDUAL perfrat divided by opponent's sigma)
     #print sigma
     #print rho
     #print nu
@@ -458,7 +458,15 @@ class Player(object):
     #print sigmaPrime
     muPrime = sigmaPrime * ( (mu/(sigma**2)) + sum2) #calculate new rating using NEW sigmaPrime
     
+	#handle short tourneys
+   #if (len(self.games) < 8):
+	#  change = muPrime - mu
+	#  #change *= math.sqrt(len(self.games)/8)
+	#  change *= len(self.games)/8
+	#  muPrime = mu + change
+	
     self.newRating = int(round(muPrime))
+  
     if (self.newRating < 500):
       self.newRating = 500
       

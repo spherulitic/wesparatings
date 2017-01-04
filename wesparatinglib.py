@@ -9,7 +9,7 @@ import time
 global tournamentDate
 tournamentDate = 20060101
 global MAX_DEVIATION
-MAX_DEVIATION = 400.0
+MAX_DEVIATION = 300.0
 
 class Tournament(object):
   def checkIndex(self,ratfile,toufile):
@@ -168,24 +168,40 @@ class Tournament(object):
   #####     using the previously calculated rating as their initial rating
   #####     until the output rating for these players equals the input rating
   #####   THEN for rated players only:
-    MAX_ITERATIONS = 25
+    MAX_ITERATIONS = 50
     for s in self.sections:
       converged = False
       iterations = 0
-
+      opponentSum = 0.0
       while not converged and iterations < MAX_ITERATIONS: 
-        converged = True #i.e. when in the loop and 'False' is returned, keep iterating
-        for p in [dude for dude in s.getPlayers() if dude.isUnrated ]:
-		  preRating = p.getInitRating()
-		  p.calcNewRatingBySpread() #calculates rating as usual
-		  #converged = (converged and abs(preRating - p.getNewRating()) < 20)
-		  converged = (converged and preRating == p.getNewRating())
-		  #print converged
-		  p.setInitRating(p.getNewRating()) 
-		  p.setInitDeviation(MAX_DEVIATION)
-		  #print "Rating unrated player" + str(p) + ": " + str(p.getNewRating()) + "\n"
-		  iterations = iterations + 1 
+          converged = True #i.e. when in the loop and 'False' is returned, keep iterating
           
+          for p in [dude for dude in s.getPlayers() if dude.isUnrated ]: #for an unrated dude       
+              unratedOpps = 0.0
+              if (unratedOpps/float(len(p.getOpponents()) + 1) >= 0.4):
+				    for g in s.getPlayers():
+						opponentMu = g.getInitRating()
+						opponentSum += opponentMu
+						opponentAverage = opponentSum/len(s.getPlayers())
+						p.setInitRating(opponentAverage)
+						preRating = p.getInitRating()
+						p.setUnrated(False)
+						#p.setUnrated(False)
+						print "p played insufficient rated players, initialised to opponentAverage \n"
+				
+              else:
+                    preRating = p.getInitRating()
+                    #print "else was executed"
+			
+              p.calcNewRatingBySpread() #calculates rating as usual
+              #converged = (converged and abs(preRating - p.getNewRating()) < 20)
+              converged = (converged and preRating == p.getNewRating())
+              #print converged
+              p.setInitRating(p.getNewRating()) 
+              p.setInitDeviation(MAX_DEVIATION)
+              iterations = iterations + 1   
+              #print "Rating unrated player" + str(p) + ": " + str(p.getNewRating()) + "\n"
+         
       for p in [ dude for dude in s.getPlayers() if not dude.isUnrated ]:
         p.calcNewRatingBySpread()
 
@@ -211,25 +227,26 @@ class Tournament(object):
     for root, dirs, files in os.walk(rootDir):
       for filename in [ y for y in files if 'tou' in y ]: #for ANY file ending with .tou
         TOUFILE = os.path.join(root, filename)
-        
-    for s in self.sections:
-      outFile = open('{0}.ST2'.format(touname), 'a')
-      outFile.truncate(0)
-	#DEBUG      print "Section {0} \n".format(s.getName)
-      outFile.write("{0} \n".format(s.getName()))
-	#DEBUG      print "{:21} {:10} {:7} {:8} {:8} {:8} \n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", " New Dev")
-      outFile.write("{:21} {:10} {:7} {:8} {:8} {:8}{:8}\n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", "New Dev"))
-      for p in sorted(s.getPlayers(), key=lambda x: (x.getWins()*100000)+x.getSpread(), reverse=True):
-        #print "{:21} {:10} {:7} {:8} {:8} {:8}".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating(), p.getNewRating()-p.getInitRating())
-        outFile.write("{:21} {:10} {:7} {:8} {:8} {:8} {:8} \n".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating(), p.getNewRating()-p.getInitRating(),   p.newRatingDeviation))
-      outFile.write("This tournament's rating is complete :)")
-
-      #with open('{0}.ST2', 'r') as rat:
-      #with open(outFile, 'r') as rat:
-      #  data = rat.read().splitlines(True)
-      #with outFile as fout:
-      #  fout.writelines(data[1:])
-      outFile.close()
+    #TOO MANY COPIES!
+	
+    #for s in self.sections:
+    #  outFile = open('{0}.ST2'.format(touname), 'a')
+    #  outFile.truncate(0)
+	##DEBUG      print "Section {0} \n".format(s.getName)
+    #  outFile.write("{0} \n".format(s.getName()))
+	##DEBUG      print "{:21} {:10} {:7} {:8} {:8} {:8} \n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", " New Dev")
+    #  outFile.write("{:21} {:10} {:7} {:8} {:8} {:8}{:8}\n".format("NAME", "RECORD", " SPREAD", "    Old    ", " New   ", "Change", "New Dev"))
+    #  for p in sorted(s.getPlayers(), key=lambda x: (x.getWins()*100000)+x.getSpread(), reverse=True):
+    #    #print "{:21} {:10} {:7} {:8} {:8} {:8}".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating(), p.getNewRating()-p.getInitRating())
+    #    outFile.write("{:21} {:10} {:7} {:8} {:8} {:8} {:8} \n".format(p.getName(), str(p.getWins()) + "-" + str(p.getLosses()), p.getSpread(), p.getInitRating(), p.getNewRating(), p.getNewRating()-p.getInitRating(),   p.newRatingDeviation))
+    #  outFile.write("This tournament's rating is complete :)")
+    #
+    #  #with open('{0}.ST2', 'r') as rat:
+    #  #with open(outFile, 'r') as rat:
+    #  #  data = rat.read().splitlines(True)
+    #  #with outFile as fout:
+    #  #  fout.writelines(data[1:])
+    #  outFile.close()
 
   def outputRatfile(self, outFile):
     outFile.write("NICK     {:20}{:5}{:5} {:9}{:6}\n".format("Name", "Games", " Rat", "Lastplayed", "New Dev"))
@@ -596,7 +613,7 @@ class PlayerList(object): # a global ratings list
         try:
           ratingDeviation = float(row[49:])
         except ValueError:
-          ratingDeviation = 400
+          ratingDeviation = MAX_DEVIATION
         self.allPlayers[name] = Player(name) # creates a new Player object and runs __init__ with name as the argument
         self.allPlayers[name].setInitRating(rating, ratingDeviation)
         self.allPlayers[name].setCareerGames(careerGames)

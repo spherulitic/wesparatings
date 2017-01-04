@@ -7,8 +7,8 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Chris May              67 2060 20061129    400 
          David Boys            135 2059 20051119    400 
          Andrew Fisher         268 2050 20061106    400 
-         Austin Shin            29 2045 20061201  149.6 
          Edward Okulicz         91 2044 20061129    400 
+         Austin Shin            29 2042 20061201  149.6 
          Eta Karo               24 2040 20060924    400 
          David Wiegand          96 2036 20051119    400 
          Joel Wapnick          150 2030 20051119    400 
@@ -24,7 +24,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Howard Warner         310 2017 20061106    400 
          Charnwit Sukhu        287 2015 20060702    400 
          Onota Oteheri          24 2013 20060924    400 
-         David Eldar           128 2011 20061201  149.6 
+         David Eldar           128 2006 20061201  149.6 
          James Kramer           88 2000 20051119    400 
          Wellington Jighere     24 1999 20060924    400 
          Russell Byers         105 1999 20051119    400 
@@ -115,7 +115,6 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Geoff Thevenot         17 1873 20050703    400 
          Keiichiro Hirai       122 1873 20051119    400 
          Peter Sinton          241 1871 20061106    400 
-         Thacha Koowirat        17 1871 20061201  400.0 
          Azu Ogbogu             77 1870 20000705    400 
          Michael Hornung        24 1870 20061106    400 
          Shane O'Neill          12 1870 20051030    400 
@@ -137,6 +136,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Angie Pearse           14 1856 19991102    400 
          Christian Mensah       24 1856 20060924    400 
          Mike Sigley           170 1855 20061106    400 
+         Thacha Koowirat        17 1855 20061201  400.0 
          Umogbai Andrew         24 1854 20000423    400 
          Kittana Srimaha        12 1852 20000705    400 
          Larry Benjamin         18 1852 19930830    400 
@@ -147,12 +147,12 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Barry Harridge         58 1850 20061129    400 
          Lynne Powell           47 1850 19981123    400 
          Chrys Placca          186 1850 20060924    400 
-         Benjamin Chow          25 1850 20061201  149.6 
          Kong Chock Heng       251 1848 20051218    400 
          Amnuay Ploysangngam   345 1848 20060702    400 
          Peter Shaw             17 1848 20061129    400 
          Montien Choltichanan  107 1847 20050613    400 
          David Poder            24 1846 20051119    400 
+         Benjamin Chow          25 1846 20061201  149.6 
          Joan Rosenthal        252 1845 20050116    400 
          Daniel Simonis         33 1844 20060930    400 
          Patrick Litunya       259 1844 20060924    400 
@@ -174,21 +174,21 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Lynne Butler          135 1829 20061106    400 
          John Foley             47 1829 19981123    400 
          Stewart Holden         32 1827 20050226    400 
-         Will Nediger           39 1822 20061201  149.6 
          Mike Whiteoak          14 1820 20060713    400 
          Ivor Zetler            27 1819 20000528    400 
+         Will Nediger           39 1819 20061201  149.6 
          Yeo Kian Hung         276 1818 20060702    400 
          Hubert Wee            172 1817 20060702    400 
          Alec Webb              54 1815 20060713    400 
-         Simon Harinworrarob   222 1815 20050613    400 
          Salah Salih           234 1815 20060609    400 
+         Simon Harinworrarob   222 1815 20050613    400 
          Ricardo Gonzalez      313 1815 20060702    400 
          Francis Theuri         48 1814 20050327    400 
-         Alastair Richards     123 1813 20061201  149.6 
          Ras Attachey           24 1812 20000423    400 
          Dylan Sharma          238 1810 20050116    400 
          Francis Wachira        90 1808 20050327    400 
          Marlon Prudencio       77 1808 20060702    400 
+         Alastair Richards     123 1808 20061201  149.6 
          Leslie Charles         56 1807 20051119    400 
          Martin Reed            24 1807 20050226    400 
          Frances Ure            12 1805 20051030    400 
@@ -222,7 +222,6 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Travis Chaney          17 1789 20050703    400 
          Sampson Asare          24 1788 20060924    400 
          Steven Brown           72 1788 20061106    400 
-         Tanasak Supaphibunk    18 1788 20061201  400.0 
          Rodney Judd            32 1787 19991106    400 
          David Lloyd            72 1787 20031023    400 
          Teong-Chuan Tan        36 1786 19980920    400 
@@ -230,6 +229,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Rita Norr              36 1786 19951026    400 
          Antonio Malonzo       218 1784 20051218    400 
          Mwaka Martin           42 1784 20030608    400 
+         Tanasak Supaphibunk    18 1783 20061201  400.0 
          Daniel Akrong          24 1782 20041003    400 
          Graeme Lock Lee        44 1781 20061129    400 
          Mohan Chunkath        213 1781 20050116    400 
@@ -247,7 +247,6 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Austin Tan Kiat        44 1771 19990627    400 
          Victor Berdie          24 1770 20000423    400 
          Margaret Staunton      16 1768 20030630    400 
-         Sherwin Rodrigues     163 1767 20061201  149.6 
          Kathy Swan             16 1767 20030630    400 
          Leo Capuno             94 1767 20060609    400 
          Jim Nanavati           45 1766 19991106    400 
@@ -258,6 +257,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Margarida de Souza     24 1763 20011216    400 
          Solomon Attachey       24 1763 19980412    400 
          Paul Kalumba           96 1762 20051119    400 
+         Sherwin Rodrigues     163 1762 20061201  149.6 
          Kojo Acheampong        48 1759 20060924    400 
          Jeff Widergren         18 1758 19951026    400 
          Paul Sodje             24 1758 20000423    400 
@@ -271,7 +271,6 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Bennet Kpentey        120 1750 20060924    400 
          Neville Giloi          24 1749 19980412    400 
          Mario Recedes          24 1749 20031023    400 
-         Lee Guan Hui           10 1748 20061201  400.0 
          Chuah Sim Swee         44 1746 20060625    400 
          Mohammed Mensah        24 1746 20060924    400 
          Kwame Poku             24 1746 20011216    400 
@@ -294,6 +293,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Arun Methaseth        312 1733 20060702    400 
          Adrian Tamas           27 1732 20060702    400 
          Jim Warmington          8 1732 19991102    400 
+         Lee Guan Hui           10 1731 20061201  400.0 
          Andrew Bradley         48 1730 20041126    400 
          Ferdy Anthonius        75 1730 20060702    400 
          Anand Buddhdev         54 1729 20051119    400 
@@ -309,8 +309,6 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Francis Dizon          18 1723 19970526    400 
          Gerardo Onate         177 1723 20060702    400 
          Andrew Hamblin         23 1722 19961125    400 
-         Toh Weibin             19 1722 20061201  400.0 
-         Joshua Sng             27 1720 20061201  149.6 
          Thien Termpaisit      175 1719 20060702    400 
          Jose D'Abreu           38 1719 20060116    400 
          Lakshan Wanni         174 1718 20051119    400 
@@ -318,12 +316,14 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Glennis Hale          169 1717 20061106    400 
          Banda Abdallah         24 1716 20000423    400 
          Pam Field              24 1716 19980412    400 
+         Joshua Sng             27 1715 20061201  149.6 
          Quek Sim Ho           164 1715 20041219    400 
          Krishna Kumar          50 1714 20000528    400 
          Cyril Umebiye          24 1714 20000423    400 
          Julius Auka            66 1711 20050327    400 
          Chris Keeley           16 1711 20030630    400 
          Trevor Harrison        18 1709 19951026    400 
+         Toh Weibin             19 1709 20061201  400.0 
          Akosa Sapong           24 1709 20000423    400 
          Alan Sinclair          24 1709 20011216    400 
          Butch Maniego          36 1708 19980920    400 
@@ -389,12 +389,12 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Douglas Lobo          148 1672 20060116    400 
          Gerry Moore            24 1669 19980412    400 
          Prachya Pitapho       158 1669 20060702    400 
-         Samitha Amarasinghe    49 1668 20061201  149.6 
          Shirley de Silva       15 1668 20030803    400 
          John Mbote             48 1667 20050327    400 
          Shaikh Ahmed           54 1667 20060116    400 
          Thavachai Tivava      136 1666 20051218    400 
          Yvonne Lobo            21 1666 19971127    400 
+         Samitha Amarasinghe    49 1664 20061201  149.6 
          Chim Wai Main         151 1664 20051218    400 
          Richard Andabwa        47 1662 19990627    400 
          Mwenya Munkonge        24 1662 20041003    400 
@@ -454,14 +454,13 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Angela Van Niekerk      6 1618 19991031    400 
          Buddhi Malinda          9 1617 20061129    400 
          Jakkrit Thipthan       26 1617 20020707    400 
-         Ong Suanne            132 1616 20061201  149.6 
          Catherine Costello     60 1615 20051030    400 
          Segun Adegbenro        48 1615 20000423    400 
          Visan Vongthanasun    146 1615 20060702    400 
          Sanmi Odelana         229 1615 20060702    400 
          Gunnar Andersson       17 1614 20060930    400 
+         Ong Suanne            132 1614 20061201  149.6 
          Lahiru De Silva        39 1611 20060116    400 
-         Thanapong Kukiet       17 1610 20061201  400.0 
          Emy Yap               116 1610 20010505    400 
          Rod Ybardolaza         34 1608 20011012    400 
          Mario Saliba           53 1608 19991106    400 
@@ -478,6 +477,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Harmony Kuller         15 1596 20000604    400 
          Asanka Amarasinghe     15 1594 20030803    400 
          Edie Mueller           74 1593 20060702    400 
+         Thanapong Kukiet       17 1593 20061201  400.0 
          Chris Ntege            90 1593 20051119    400 
          Patrick Miriti         24 1591 20021020    400 
          Mauricio Polinar       23 1591 19990627    400 
@@ -485,9 +485,9 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Weeraya Manakit        53 1589 20060702    400 
          Aloysious Conzaga     174 1588 20060702    400 
          Sanwarit Amorn         27 1588 20060702    400 
-         Yi En Gan               4 1588 20061201  400.0 
          Irineu Gonsalves       62 1587 20060116    400 
          Eric Kusimba           24 1587 20021020    400 
+         Yi En Gan               4 1586 20061201  400.0 
          Teresa Dean            16 1586 20031017    400 
          Mangala Bhandarkar    100 1585 20040201    400 
          Lynn Roff              66 1585 20041003    400 
@@ -500,9 +500,9 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Delio Dimaano         131 1578 20051218    400 
          Mwangi Kamau           48 1577 20050327    400 
          Mushtaq Esmail        187 1577 20060924    400 
-         Loh Vern Sern          26 1576 20061201  149.6 
          Louie De Guzman        44 1576 20061129    400 
          Mark Kwan              18 1576 20031214    400 
+         Loh Vern Sern          26 1574 20061201  149.6 
          Shahnaz Hirji         115 1574 20050327    400 
          Lewis Singh            24 1574 20011216    400 
          Anwar Siddiqui         42 1573 20050116    400 
@@ -510,13 +510,13 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Adeeb Ahmad           102 1572 20060609    400 
          Walter Nyandiko        24 1571 20050327    400 
          Morara Henry           18 1569 20030608    400 
-         Pasit Natearpha        14 1564 20061201  400.0 
          Ong Yeam Chin          45 1562 20000528    400 
          Candido Filio          36 1562 19970526    400 
          Tan Tiam Chai          23 1561 19990627    400 
          Alan Lewis             24 1556 19980412    400 
          Wone Mamadou          163 1555 20060609    400 
          Mallika Manakit        81 1555 20060702    400 
+         Pasit Natearpha        14 1554 20061201  400.0 
          Bijay Anand            14 1553 20030112    400 
          Rosario Lambino        43 1553 20061129    400 
          Fidelis Olotu          23 1553 19990627    400 
@@ -555,12 +555,11 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Paul Bosita            24 1514 20041003    400 
          Pauline Washkansky     24 1514 19980412    400 
          Margaret Warmington     8 1514 19991102    400 
-         Karl Chin Hon Yew       4 1513 20061201  400.0 
+         Louie de Guzman        11 1513 20061201  400.0 
          Wasinee Beech          14 1512 20060713    400 
-         Marcus Goh              9 1510 20061201  400.0 
-         Louie de Guzman        11 1509 20061201  400.0 
-         Duncan Keet            24 1507 20041003    400 
+         Karl Chin Hon Yew       4 1508 20061201  400.0 
          Peter Jones            24 1507 20021118    400 
+         Duncan Keet            24 1507 20041003    400 
          Miriam Saldanha        24 1504 19980412    400 
          Sarah Law             155 1503 20060702    400 
          Tee Jay                24 1502 20000423    400 
@@ -577,22 +576,23 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Narong Kriengparinya   53 1491 20050613    400 
          Hyatt Basman           26 1490 20020707    400 
          Syed Asif Rizvi       103 1488 20050613    400 
+         Marcus Goh              9 1488 20061201  400.0 
          Worawit Khamrin        20 1488 20061201  400.0 
          Joseph Chavutia        48 1486 20050327    400 
-         Chaiwat Wuthinitikor    5 1486 20061201  400.0 
          Darlene Rouse          15 1485 20000604    400 
          Inayat Alidina         42 1485 20030608    400 
          Shayan Jafrani         12 1481 20050925    400 
          Yeap Gim Sai          102 1480 20060625    400 
          Betty Eriksen          43 1480 20061129    400 
-         Jessica Bacani         26 1479 20061201  149.6 
          Liz Jackman            23 1476 19990627    400 
          Tony Kaje              14 1476 20000526    400 
+         Jessica Bacani         26 1475 20061201  149.6 
          Rob Rosenthal          28 1474 20060609    400 
          Ang Jin Yang           20 1474 20041219    400 
          Zain Putra             27 1474 20000528    400 
          Zeenath Ariff          20 1472 20060625    400 
          Wimal Fernando        148 1472 20060609    400 
+         Chaiwat Wuthinitikor    5 1469 20061201  400.0 
          Mary Morgan            31 1469 20061129    400 
          Marten Bjorkman        32 1468 20051119    400 
          Kunihiko Kuroda       135 1468 20060702    400 
@@ -601,12 +601,12 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Sonny Hemachandra     150 1463 20061129    400 
          Martin Teo             20 1463 20051218    400 
          Tan Khee Chiang       125 1462 20060702    400 
-         Charnrit Khongthan      3 1461 20061201  400.0 
          Robert Rubina          26 1460 20020707    400 
          Sandy Tsen             66 1460 20061128    400 
+         Charnrit Khongthan      3 1458 20061201  400.0 
          Silvano Adel           66 1457 20041003    400 
-         Gerald Davids          99 1456 20040604    400 
          Mohammed Abdalla       24 1456 20021020    400 
+         Gerald Davids          99 1456 20040604    400 
          Brian D'Souza          14 1454 20030112    400 
          Wilfredo Padua         97 1453 20061129    400 
          Lee Yee Fun            20 1452 20060625    400 
@@ -624,14 +624,14 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Jonathan Tawoda        42 1440 20050327    400 
          Betty Irwin            27 1438 20040628    400 
          Jerry Jang             57 1438 20051218    400 
+         Mohammed Zafar         95 1437 20061201  149.6 
          Mohd Saleh Yusof       23 1436 19990627    400 
-         Mohammed Zafar         95 1435 20061201  149.6 
          Danny Cotejo           70 1435 20011216    400 
          Aspi Irani             28 1435 20040604    400 
          William Kang           40 1434 20060625    400 
          Leonard Leong          20 1433 20041219    400 
-         Brian Lim Daqing       28 1431 20061201  149.6 
          Susi Tiekert            8 1430 19991102    400 
+         Brian Lim Daqing       28 1428 20061201  149.6 
          Farooq Khan            28 1428 20040604    400 
          Navaratnam Nirakulan   15 1421 20030803    400 
          Beboy Balaba           35 1420 20050603    400 
@@ -639,8 +639,8 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Greens Kamugisha       48 1418 20050327    400 
          Zina Costanzo          24 1418 19991031    400 
          Lindsay Van Niekerk     6 1416 19991031    400 
-         Khoo Beng Way          23 1414 20061201  149.6 
          Lawrence Low           80 1414 20060702    400 
+         Khoo Beng Way          23 1413 20061201  149.6 
          Dr Nixon               24 1413 20000423    400 
          A Abdallai             24 1413 20000423    400 
          Lennie D'Souza         75 1406 20060702    400 
@@ -657,11 +657,11 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Salum Hussein          42 1393 20030608    400 
          Louis Fernandes        42 1391 20010517    400 
          Jacinta Kiragu         66 1390 20041003    400 
-         Michael Loo            18 1389 20061201  149.6 
-         Siddarth Raman         43 1387 20061201  149.6 
+         Michael Loo            18 1390 20061201  149.6 
          Gayani Fernando        20 1387 20011012    400 
          Rahul Goswamy          23 1386 19990627    400 
          K Ravindran            28 1385 20060609    400 
+         Siddarth Raman         43 1385 20061201  149.6 
          Ferrer Abordo         185 1384 20060609    400 
          Marja Takala           17 1384 20060930    400 
          Peter Tay              45 1383 20051218    400 
@@ -673,10 +673,10 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Manickam Ganapathy    117 1376 20051218    400 
          Teeranuch Rijiraw      27 1376 20040628    400 
          Eleanor Forbes         24 1376 19980412    400 
-         Sean Chung             24 1375 20061201  149.6 
          Mustafa Rashid         12 1373 20001110    400 
-         Talib Pirmohamed       24 1371 20041003    400 
+         Sean Chung             24 1372 20061201  149.6 
          James Wright           24 1371 20011216    400 
+         Talib Pirmohamed       24 1371 20041003    400 
          Theng Wai Mun          16 1370 20010505    400 
          Jose Pulikottil         6 1369 20011012    400 
          Esme Kopelowitz        24 1367 19980412    400 
@@ -688,12 +688,12 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Visoot Ddd             12 1360 20000705    400 
          Wong Kar Mun           65 1359 20050613    400 
          Marites Carreon        27 1359 20030629    400 
-         Lahiru Elvitigala      99 1352 20061201  149.6 
          Lewrenda Ambler        26 1352 20050613    400 
          Sylvester Mboya        24 1351 20000423    400 
          Omar Karachi           72 1351 20050327    400 
          Mujeeb Rahman          83 1351 20060331    400 
          Rene Chelton            8 1350 20061128    400 
+         Lahiru Elvitigala      99 1350 20061201  149.6 
          Mir Aftab Javed        41 1348 20060609    400 
          Lam Piang              16 1345 20000521    400 
          Lim Sha Lyn            67 1344 20060625    400 
@@ -721,16 +721,16 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Fred Ogwang            24 1312 20021020    400 
          Nestor Javier          93 1311 20060331    400 
          Edgar Quiogue          25 1309 20021018    400 
-         Ian Tay Zhi Xian       35 1308 20061201  149.6 
+         Ian Tay Zhi Xian       35 1309 20061201  149.6 
          Riasat Khan            27 1308 20060609    400 
          Jackie Cheah           20 1306 20060625    400 
          Zamri Majid            86 1304 20031214    400 
          Balasubramanium Chen   54 1304 20060116    400 
+         Pranav Damani          17 1304 20061201  400.0 
          Irene Lim              23 1302 19990627    400 
          Shanthikumar Subra     40 1296 20051218    400 
          PC Jose                48 1295 20060116    400 
          Toyo Kitua             90 1294 20060924    400 
-         Pranav Damani          17 1294 20061201  400.0 
          Mahboob Khan          148 1293 20050603    400 
          Makbul Manji           90 1290 20050327    400 
          Prithwiraj Mukherjee   24 1287 20060116    400 
@@ -743,24 +743,36 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Weeranee Tanasarn      80 1279 20060702    400 
          Sujit Ungpakorn        29 1278 20060702    400 
          Vyshali Mehta          24 1277 20060116    400 
-         Alex Hong               8 1276 20061201  149.6 
          Catalin-Eugen Caba     24 1275 19991106    400 
          Lory Sibayan           48 1273 20030606    400 
          Sam Joseph             38 1273 20060116    400 
+         Alex Hong               8 1272 20061201  149.6 
          Kerry Constant         14 1270 20040125    400 
          Vic Villanueva         38 1268 20040604    400 
-         Wendy Lee Suk Ling     28 1263 20061201  149.6 
          Valliammah Thamb       67 1262 20060702    400 
          Shafique Ahmed        163 1262 20060609    400 
          Harold Nixon           24 1260 20000423    400 
+         Wendy Lee Suk Ling     28 1259 20061201  149.6 
          Jean Balmer            17 1256 20061129    400 
          Huub Luyk              27 1253 20050613    400 
          Amanullah Khan         56 1253 20060609    400 
          Ramkumar Prasad        15 1251 20030803    400 
+         Oluwadara Olayanju      0 1250 20060101    400 
+         Fortune Ezennia         0 1250 20060101    400 
+         Alif Akmal Hashim       0 1250 20060101    400 
+         Muhd Amirul Hakim       0 1250 20060101    400 
+         Chikezie Ehirim         0 1250 20060101    400 
+         Muhd Alif Iman          0 1250 20060101    400 
+         Irfan Sabri             0 1250 20060101    400 
+         Shamha Tubaan           0 1250 20060101    400 
+         Lolope Alo              0 1250 20060101    400 
+         Vali Khubaib            0 1250 20060101    400 
+         Dulmini Weerarathne     0 1250 20060101    400 
+         Sahel Infas             0 1250 20060101    400 
          Elvis Escara           28 1249 20030606    400 
          Sarwar Hussain         28 1249 20000526    400 
-         Ivan Imperial          25 1248 20061201  149.6 
          Goh Soo Hang           23 1248 19990627    400 
+         Ivan Imperial          25 1246 20061201  149.6 
          Wadu Silva             38 1246 20021020    400 
          Claire Dove            27 1241 20040628    400 
          Pervaiz Sheerazi       14 1233 20000526    400 
@@ -770,8 +782,8 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Hashim Kalathil        86 1227 20060609    400 
          Yeoh Sue Ann           20 1227 20060625    400 
          Anil Wickramsinghe     24 1221 20060116    400 
+         Grant Breadsell        24 1218 20061201  149.6 
          Marcello Lualhati      77 1215 20040109    400 
-         Grant Breadsell        24 1214 20061201  149.6 
          Brian Irwin            27 1214 20040628    400 
          Sibtain Remtulla       24 1210 20050327    400 
          Joe Rodrigues          38 1209 20050116    400 
@@ -784,16 +796,17 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Oswald Fernandes       73 1200 20060609    400 
          David Baleero          24 1200 20050327    400 
          Malcolm Okaikoi        24 1195 20000423    400 
+         Charles Cue            20 1191 20061201  149.6 
          Thilina Elvitigala     66 1188 20040109    400 
          Zahid Sachak           54 1188 20030606    400 
          Khwanjai Thammaping    79 1188 20050613    400 
-         Charles Cue            20 1187 20061201  149.6 
          Margaret Abwooli       24 1186 20050327    400 
          Zomboko Mwarami        48 1185 20050327    400 
          Jayanthi Kannan        70 1183 20060116    400 
          Joshua Whitehead       14 1177 20040125    400 
          Bhushan Pradhan        64 1177 20060116    400 
          Wayne Wakeman          14 1175 20040125    400 
+         Natasha Podesser       16 1171 20061201  400.0 
          Catherine Tong         39 1170 20051218    400 
          John Sang              24 1170 20000423    400 
          Matthew Mathan Raj     18 1168 20031214    400 
@@ -806,7 +819,6 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Abdul Waheed            6 1151 20011012    400 
          Cheah Kuan Xu          20 1149 20051218    400 
          Tariq Cassim           48 1148 20060116    400 
-         Natasha Podesser       16 1144 20061201  400.0 
          Bronargh Kenny         24 1140 20031023    400 
          Peter Oljelund          8 1131 20050226    400 
          Martin Lee             14 1126 19990815    400 
@@ -817,10 +829,10 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Wong Soon Lee          23 1106 19990627    400 
          Lexie Neale             8 1105 20061128    400 
          Ching San Song         19 1101 20051218    400 
-         Nadeesha Hemachandra   60 1100 20061201  149.6 
+         Nadeesha Hemachandra   60 1099 20061201  149.6 
          Arvind Mozumdar        24 1098 20050116    400 
          Huldah Mather          15 1097 20030803    400 
-         Nilusha Hemachandra    58 1081 20061201  149.6 
+         Nilusha Hemachandra    58 1084 20061201  149.6 
          Manju Sood             24 1070 20050116    400 
          Murtaza Salehbhai      24 1069 20021020    400 
          Suhail Chishty          7 1065 20021018    400 
@@ -871,7 +883,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Lim Seng Chye          19  906 20051218    400 
          Shaji Jalil            14  901 20040604    400 
          Kulathunga Unknown     24  873 20050116    400 
-         Vimalan Raviraj        36  869 20061201  149.6 
+         Vimalan Raviraj        36  865 20061201  149.6 
          Freddy Teo             20  853 20060625    400 
          Jerry Leng             24  849 20060702    400 
          Dinna Lim              40  846 20051218    400 
@@ -884,12 +896,12 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Hari Prasad            24  798 20060116    400 
          Soo Wei Chee           18  787 20031214    400 
          Satish Srinivasan      48  775 20060116    400 
+         Aldwin Gonzales         0  774 20061201  400.0 
          Kate Blanchard         27  762 20050603    400 
          Othman Zakaria         37  756 20051218    400 
          Marissa Lanuza         14  726 20000526    400 
          Ali Abdulrahman         6  724 20011012    400 
          Aldwin Gonsales        17  715 20061129    400 
-         Aldwin Gonzales         0  701 20061201  400.0 
          Rekha Sanzgiri         24  700 20050116    400 
          Pearly Quek            18  692 20031214    400 
          Yogiraj Thiruc          7  691 20021018    400 
@@ -904,7 +916,7 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Poh Wei Beng           18  615 20031214    400 
          Rajdeep Samudrale       7  597 20060331    400 
          Liza Heah              20  597 20060625    400 
-         Chaliza Gutlay         19  595 20061201  149.6 
+         Chaliza Gutlay         19  591 20061201  149.6 
          Sonny Cavilla           7  588 20060331    400 
          GCH De Silva           24  577 20060116    400 
          Lindy Lawson           17  565 20061129    400 
@@ -913,4 +925,4 @@ NICK     Name                Games Rat  LastplayedNew Dev
          Nishi Shah             33  532 20061201  149.6 
          Chintamani Salgado     24  531 20060116    400 
          Rikaz Thaha             7  500 20021018    400 
-         Joseph Kotico          11  500 20061201  400.0 
+         Joseph Kotico          11  424 20061201  400.0 

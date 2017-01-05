@@ -178,16 +178,21 @@ class Tournament(object):
           
           for p in [dude for dude in s.getPlayers() if dude.isUnrated ]: #for an unrated dude       
               unratedOpps = 0.0
-              if (unratedOpps/float(len(p.getOpponents()) + 1) >= 0.4):
-				    for g in s.getPlayers():
-						opponentMu = g.getInitRating()
-						opponentSum += opponentMu
-						opponentAverage = opponentSum/len(s.getPlayers())
-						p.setInitRating(opponentAverage)
-						preRating = p.getInitRating()
-						p.setUnrated(False)
-						#p.setUnrated(False)
-						print "p played insufficient rated players, initialised to opponentAverage \n"
+              try:
+                unratedOppsPct = unratedOpps/float(len(p.getOpponents()))
+              except ZeroDivisionError:
+                undatedOppsPct = 0.0
+              if unratedOppsPct >= 0.4:
+#              if (unratedOpps/float(len(p.getOpponents()) + 1) >= 0.4):
+		    for g in s.getPlayers():
+			opponentMu = g.getInitRating()
+			opponentSum += opponentMu
+			opponentAverage = opponentSum/len(s.getPlayers())
+			p.setInitRating(opponentAverage)
+			preRating = p.getInitRating()
+			p.setUnrated(False)
+			#p.setUnrated(False)
+			print "p played insufficient rated players, initialised to opponentAverage \n"
 				
               else:
                     preRating = p.getInitRating()

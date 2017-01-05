@@ -73,12 +73,17 @@ class Tournament(object):
       for line in restOfFile:
         if (line.strip() == '*** END OF FILE ***'):
           continue
+        elif line[0] == ' ' or len(line) == 0:
+		  continue
+		 
+        elif len(line) == 1 or len(line) == 2: #ignore ridiculously short lines
+		  continue
         elif (line[0] == '*') :
           currentSection = Section(line[1:]) # Create section object
           self.addSection(currentSection)
           continue
-        elif (line[0] == ' '):
-          continue
+        #elif (line[0] == ' '):
+        #  continue
         # Don't know if this is the best way to do this
         playerName = ' '.join([word for word in line.split() if any(letter in word for letter in string.letters) ])  
         try:
@@ -178,21 +183,16 @@ class Tournament(object):
           
           for p in [dude for dude in s.getPlayers() if dude.isUnrated ]: #for an unrated dude       
               unratedOpps = 0.0
-              try:
-                unratedOppsPct = unratedOpps/float(len(p.getOpponents()))
-              except ZeroDivisionError:
-                undatedOppsPct = 0.0
-              if unratedOppsPct >= 0.4:
-#              if (unratedOpps/float(len(p.getOpponents()) + 1) >= 0.4):
-		    for g in s.getPlayers():
-			opponentMu = g.getInitRating()
-			opponentSum += opponentMu
-			opponentAverage = opponentSum/len(s.getPlayers())
-			p.setInitRating(opponentAverage)
-			preRating = p.getInitRating()
-			p.setUnrated(False)
-			#p.setUnrated(False)
-			print "p played insufficient rated players, initialised to opponentAverage \n"
+              if (unratedOpps/float(len(p.getOpponents()) + 0.0) >= 0.4):
+				    for g in s.getPlayers():
+						opponentMu = g.getInitRating()
+						opponentSum += opponentMu
+						opponentAverage = opponentSum/len(s.getPlayers())
+						p.setInitRating(opponentAverage)
+						preRating = p.getInitRating()
+						p.setUnrated(False)
+						#p.setUnrated(False)
+						print "p played insufficient rated players, initialised to opponentAverage \n"
 				
               else:
                     preRating = p.getInitRating()
@@ -435,7 +435,7 @@ class Player(object):
     """
     An implementation of the Norwegian rating system.
     """
-    tau = 120 # to be adjusted for better results, WARNING: tau+beta<100
+    tau = 150 # to be adjusted for better results, WARNING: tau+beta<100
     #increase in tau REDUCES rat change for rated players
     beta = 5 #multiplier applied per one point of expected spread, see nu.append
     mu = self.initRating

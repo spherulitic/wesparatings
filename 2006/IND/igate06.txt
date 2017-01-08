@@ -1,0 +1,100 @@
+Results and ratings: 15.01.2006 2nd iGate International
+following beta on 19900101
+BLR   TL
+
+      24 games
+       W     M                           Old  Chg  New
+  1   18  +995  OS Varisht Hingorani    1796  +57 1853
+  2   16 +1039  OS Ralph Lobo           1837   -4 1833
+  3   16  +946  OS Irfan Siddiqui       1694  +42 1736
+  4   15  +677  OS Udayan Grover        1750  +28 1778
+  5   15  +657  OS Gerry Carter         1929  -35 1894
+  6   15  +486& OS Jose de Abreu       (1719)     1738
+  7   15  +117  OS Irineu Gonsalves     1587  +42 1629
+  8   15    -9  OS Douglas Lobo         1672   +1 1673
+  9   14  +812  OS Elie Dangoor         1794  -66 1728
+ 10   14  +698  OS Shaila Amalean       1654   -5 1649
+ 11   14  +457& OS Nakul Prabhu        (1682)     1703
+ 12   14  +393  OS Martin DeMello       1657  -17 1640
+ 13   14  +160  OS Charles Carneiro     1583  -18 1565
+ 14   14  +148& OS Rajiv Antao         (1499)    (1516)
+ 15 13.5   +20& OS Lahiru De Silva     (1614)     1609
+ 16   13 +1303  OS Ranganathan Chakrav  1757  -85 1672
+ 17   13  +385  OS Seshi Ramanathan     1516  -16 1500
+ 18   13  +370  OS Sanjoy Gupta         1468  +14 1482
+ 19   13  +300& OS MV Niranjan         (1639)    (1641)
+ 20   13  +119  OS Prashanth Seetharam  1603   +1 1604
+ 21   13   +88  OS Marie Fernandes      1498   -6 1492
+ 22   13   +36& OS Siddarth Raman      (1344)    (1350)
+ 23   12 +1032& OS Tariq Cassim        (1149)     1194
+ 24   12  +367  OS Carolann Pais        1547  -20 1527
+ 25   12  +273& OS Vaishali Mehta      (1278)    (1280)
+ 26   12  +251  OS Balasubramanium Chen 1306  +22 1328
+ 27   12   +60  OS Bhushan Pradhan      1183  +93 1276
+ 28   12   +18  OS KV Chidambaram       1331  -19 1312
+ 29   12  -170  OS Ramprasad Nuggehalli 1284   +5 1289
+ 30   12  -183& OS Prithwiraj Mukherjee(1287)    (1313)
+ 31   11  +216& OS PC Jose             (1296)     1320
+ 32   11   -32  OS Jayanthi Kannan      1185  +86 1271
+ 33   11  -209  OS Anthony Gomes        1040  +43 1083
+ 34   11  -292& OS Sam Joseph          (1273)     1172
+ 35 10.5  -548& OS Shaik Sameer        (1001)    (1016)
+ 36   10    -3  OS Lakshman Cooray      1045   +5 1050
+ 37   10  -154& OS Farida Akbarally    ( 989)    (1009)
+ 38   10  -579& OS Nupur Sood          (1065)    (1073)
+ 39    9  -249& OS V Ramachandran      (1230)     1162
+
+      23 games
+  1 14.5  +397  OS Shaikh Ahmed         1667  +68 1735
+  2   12   +12  OS Rohaina Tanveer      1499  -13 1486
+  3   12  -596  OS Lennie D'Souza       1409  -14 1395
+  4   11   -24& OS GGS De Silva        (1287)     1245
+  5 10.5  +652& OS Gregory Fernandes   (1019)     1015
+  6   10  +484  OS Radhika Mahalingaiah 1527 -112 1415
+  7   10  -193& OS Anil Wickramasinghe (1227)    (1218)
+  8   10  -353& OS Aruna Grover        ( 970)     1048
+  9   10  -703& OS Singham Pararajasing( 948)    ( 968)
+ 10    9    -5& OS Jacky Fernandes     ( 984)     1028
+ 11  8.5  -554& OS Hari Prasad         ( 798)    ( 797)
+ 12  8.5  -859& OS Satish Srinivasan   ( 775)      757
+ 13    7 -1421& OS Nancy Miranda       ( 532)      557
+ 14    7 -1709& OS Zameer Vahanvaty    ( 679)    ( 626)
+
+      21 games
+  1    4 -2145& OS Chintamani Salgado  ( 500)    ( 465)
+
+      17 games
+  1    1 -2978& OS GCH DeSilva         ( 565)    ( 434)
+
+
+High game: Prashanth Seetharam 597 
+High word: Xyz ABCDE 580 
+
+
+GCH DeSilva is still provisional (41 games)
+Chintamani Salgado is still provisional (45 games)
+Anil Wickramasinghe is still provisional (47 games)
+Hari Prasad is still provisional (47 games)
+Zameer Vahanvaty is still provisional (47 games)
+Singham Pararajasing is still provisional (47 games)
+Prithwiraj Mukherjee is still provisional (48 games)
+Farida Akbarally is still provisional (48 games)
+Rajiv Antao is still provisional (48 games)
+Nupur Sood is still provisional (48 games)
+Siddarth Raman is still provisional (48 games)
+Shaik Sameer is still provisional (48 games)
+Vaishali Mehta is still provisional (48 games)
+MV Niranjan is still provisional (48 games)
+Jose de Abreu is no longer provisional (62 games)
+Sam Joseph is no longer provisional (62 games)
+Lahiru De Silva is no longer provisional (63 games)
+Jacky Fernandes is no longer provisional (71 games)
+Aruna Grover is no longer provisional (71 games)
+GGS De Silva is no longer provisional (71 games)
+Nancy Miranda is no longer provisional (71 games)
+Satish Srinivasan is no longer provisional (71 games)
+Gregory Fernandes is no longer provisional (71 games)
+Tariq Cassim is no longer provisional (72 games)
+PC Jose is no longer provisional (72 games)
+Nakul Prabhu is no longer provisional (72 games)
+V Ramachandran is no longer provisional (72 games)

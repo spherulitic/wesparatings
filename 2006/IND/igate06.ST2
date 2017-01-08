@@ -1,0 +1,57 @@
+Section <bound method Section.getName of <wesparatinglib.Section object at 0x028F5570>>
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Varisht Hingorani     18.0-6.0       995     1796     1635
+Ralph Lobo            16.0-8.0      1039     1837     1603
+Irfan Siddiqui        16.0-8.0       946     1694     1571
+Udayan Grover         15.0-9.0       677     1750     1563
+Gerry Carter          15.0-9.0       657     1929     1555
+Jose de Abreu         15.0-9.0       486     1500     1549
+Shaikh Ahmed          15.0-9.0       397     1667     1523
+Irineu Gonsalves      15.0-9.0       117     1587     1364
+Douglas Lobo          15.0-9.0        -9     1672     1321
+Elie Dangoor          14.0-10.0      812     1794     1487
+Shaila Amalean        14.0-10.0      698     1653     1474
+Nakul Prabhu          14.0-10.0      457     1682     1470
+Martin DeMello        14.0-10.0      393     1500     1454
+Charles Carneiro      14.0-10.0      160     1583     1309
+Rajiv Antao           14.0-10.0      148     1498     1276
+Lahiru De Silva       13.5-10.5       20     1611     1327
+Ranganathan Chakrav   13.0-11.0     1303     1757     1531
+Seshi Ramanathan      13.0-11.0      385     1515     1331
+Sanjoy Gupta          13.0-11.0      370     1467     1310
+MV Niranjan           13.0-11.0      300     1638     1427
+Prashanth Seetharam   13.0-11.0      119     1500     1414
+Marie Fernandes       13.0-11.0       88     1498     1294
+Siddarth Raman        13.0-11.0       36     1341     1191
+Rohaina Tanveer       12.5-11.5       12     1499     1264
+Lennie D'Souza        12.5-11.5     -596     1406     1090
+Tariq Cassim          12.0-12.0     1032     1148     1317
+Carolann Pais         12.0-12.0      367     1545     1375
+Vaishali Mehta        12.0-12.0      273     1500     1230
+Balasubramanium Chen  12.0-12.0      251     1304     1262
+Bhushan Pradhan       12.0-12.0       60     1177     1246
+KV Chidambaram        12.0-12.0       18     1500     1174
+Ramprasad Nuggehalli  12.0-12.0     -170     1281     1129
+Prithwiraj Mukherjee  12.0-12.0     -183     1287     1155
+GGS De Silva          11.5-12.5      -24     1287     1089
+Gregory Fernandes     11.0-13.0      652     1015     1124
+PC Jose               11.0-13.0      216     1295     1259
+Jayanthi Kannan       11.0-13.0      -32     1183     1271
+Anthony Gomes         11.0-13.0     -209     1040     1061
+Sam Joseph            11.0-13.0     -292     1273      975
+Radhika Mahalingaiah  10.5-13.5      484     1522     1190
+Anil Wickramasinghe   10.5-13.5     -193     1500     1141
+Aruna Grover          10.5-13.5     -353      961     1026
+Shaik Sameer          10.5-13.5     -548      998      902
+Singham Pararajasing  10.5-13.5     -703     1500      861
+Lakshman Cooray       10.0-14.0       -3     1043     1036
+Farida Akbarally      10.0-14.0     -154      985      984
+Nupur Sood            10.0-14.0     -579     1060      956
+Jacky Fernandes       9.5-14.5        -5      984     1046
+V Ramachandran        9.0-15.0      -249     1228     1083
+Hari Prasad           9.0-15.0      -554      798      818
+Satish Srinivasan     9.0-15.0      -859      775      748
+Nancy Miranda         7.5-16.5     -1421      563      544
+Zameer Vahanvaty      7.5-16.5     -1709      679      587
+Chintamani Salgado    5.5-18.5     -2145      531      500
+GCH DeSilva           4.5-19.5     -2978     1500      500

@@ -1,0 +1,117 @@
+Section CHAMPS
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Ong Suanne            19.0-5.0      1253     1885     1836
+Alastair Richards     18.0-6.0      1013     1756     1715
+Michael McKenna       17.0-7.0      1084     1485     1544
+Preedee Khongthanara  16.0-8.0      1442      162     1362
+Charnrit Khongthan    16.0-8.0       897     1850     1801
+Oyeleke Oluwaseun     15.5-8.5      1078     1722     1673
+Wong Zhi Yuan         15.0-9.0      1154     1337     1617
+Wanchana Jirapitikul  15.0-9.0       684     1794     1714
+Goutham Jayaraman     15.0-9.0       657     1479     1493
+Charas Worapotpisut   15.0-9.0       627     1748     1690
+Jessica Pratesi       15.0-9.0       400     1461     1461
+Matthew Malitao       15.0-9.0       319     1302     1435
+Cameron Farlow        15.0-9.0        25     1274     1293
+Akaradech Suppapitta  14.0-10.0     1124     1753     1617
+Victor Gwee           14.0-10.0      656     1456     1492
+Tawan Paepholsiri     14.0-10.0      562     1517     1517
+Ker Jen Ho            14.0-10.0      550     1589     1619
+Tanasak Supaphibunk   14.0-10.0      399     1618     1580
+Jagan Narayanan       14.0-10.0      343     1551     1460
+Lahiru Elvitigala     14.0-10.0      136     1533     1489
+Eden Choo             14.0-10.0       57     1472     1424
+Yeshan Jayasuriya     14.0-10.0       52     1028     1192
+Phillip Hamilton      14.0-10.0       28     1322     1312
+Adedayo Olaolu        13.5-10.5      790     1568     1533
+Joy Policher          13.5-10.5       61     1328     1354
+Premkumar Nimalan     13.0-11.0      567     1476     1476
+Nicholas Vasquez      13.0-11.0      540     1152     1321
+Anand Bharadwaj       13.0-11.0      465     1449     1449
+Jessica Bacani        13.0-11.0      249     1453     1402
+Natasha Podesser      13.0-11.0      246     1359     1403
+Oluwafemi Akinlosotu  13.0-11.0      190     1373     1373
+Samved Mukherjee      13.0-11.0       26     1322     1322
+Nutt Treepoonsuk      13.0-11.0      -38     1453     1400
+Markus Loke           13.0-11.0      -44     1349     1282
+John Akinbiyi         12.5-11.5     -263     1164     1164
+Christopher Walleck   12.0-12.0      660     1359     1359
+William Kang          12.0-12.0      481     1633     1576
+Looi Yih Feng         12.0-12.0      409     1370     1370
+Goh Dewin             12.0-12.0      360     1440     1432
+Tim Butcher           12.0-12.0      317     1174     1274
+Chang Ching Yet       12.0-12.0      -17     1340     1186
+Mohd Bin Abdul Suma   12.0-12.0      -73     1221     1242
+Kobtun Khongthanarat  12.0-12.0     -113     1295     1250
+Perry Lam             12.0-12.0     -117     1310     1310
+Shaini Wilson         12.0-12.0     -157     1213     1191
+Muhammad Nasrom       12.0-12.0     -569     1040     1040
+Peh Wei Chen          11.5-12.5      516     1369     1369
+Tan Kar Hee           11.5-12.5      505     1334     1334
+Jacob Sunny           11.0-13.0      539      761     1188
+Sheroze Sheriffdeen   11.0-13.0      232     1348     1450
+Pranav Damani         11.0-13.0       22     1169     1253
+Vladimir Bacani       11.0-13.0      -59     1218     1218
+Thanaphong Thiamsee   11.0-13.0     -166     1403     1254
+Amery Seow            11.0-13.0     -204      972     1089
+Robert Blunt          11.0-13.0     -258     1082     1099
+Varun Elangovan       11.0-13.0     -352     1066     1066
+Orimoloye Moyosore    11.0-13.0     -456      318      932
+Batul Kaizar          11.0-13.0     -684      524      803
+Kevin Ketagoda        10.5-13.5      244     1157     1093
+Dylan D'Souza         10.0-14.0      417     1153     1153
+Lim Mao Fong          10.0-14.0     -149     1049     1065
+Lau Jian Ning         10.0-14.0     -188     1079     1079
+Daniel D'Souza        10.0-14.0     -286     1167     1167
+Pranav Kaarthik       10.0-14.0     -357     1101     1101
+Stephanie Vincent     10.0-14.0     -361     1111     1111
+Joe Knapper           10.0-14.0     -749     1079     1079
+Chaliza Gutlay        10.0-14.0     -799      615      739
+Aldrin Escalante      10.0-14.0     -986      947      947
+Adewale Opeoluwa      9.5-14.5      -754      993      993
+Varshini Elangovan    9.0-15.0      -339     1137     1137
+Sasika Jayasuriya     9.0-15.0      -363     1072     1072
+Aldwin Gonzales       9.0-15.0     -1262      750      755
+Kim Rubina            8.5-15.5     -1016      689      688
+Arin Pantisoonporn    8.0-16.0      -480     1258     1011
+Siva Sethupathy       8.0-16.0      -888      863      863
+Natthapath Chanka     8.0-16.0     -1101      929      929
+Ajibade Olajumoke     7.5-16.5     -1843      556      556
+Manas Puranik         7.5-16.5     -2159      300      300
+Mudra Puranik         7.0-17.0     -1438      782      782
+Vincentius Salim      6.5-17.5     -1326      728      728
+Wilson Hioe           6.0-18.0     -1962      586      586
+
+Adewale Opeoluwa      is unrated 
+Ajibade Olajumoke     is unrated 
+Aldrin Escalante      is unrated 
+Anand Bharadwaj       is unrated 
+Christopher Walleck   is unrated 
+Daniel D'Souza        is unrated 
+Dylan D'Souza         is unrated 
+Jessica Pratesi       is unrated 
+Joe Knapper           is unrated 
+John Akinbiyi         is unrated 
+Lau Jian Ning         is unrated 
+Looi Yih Feng         is unrated 
+Manas Puranik         is unrated 
+Mudra Puranik         is unrated 
+Muhammad Nasrom       is unrated 
+Natthapath Chanka     is unrated 
+Oluwafemi Akinlosotu  is unrated 
+Peh Wei Chen          is unrated 
+Perry Lam             is unrated 
+Pranav Kaarthik       is unrated 
+Premkumar Nimalan     is unrated 
+Samved Mukherjee      is unrated 
+Sasika Jayasuriya     is unrated 
+Siva Sethupathy       is unrated 
+Stephanie Vincent     is unrated 
+Tan Kar Hee           is unrated 
+Tawan Paepholsiri     is unrated 
+Varshini Elangovan    is unrated 
+Varun Elangovan       is unrated 
+Vincentius Salim      is unrated 
+Vladimir Bacani       is unrated 
+Wilson Hioe           is unrated 
+

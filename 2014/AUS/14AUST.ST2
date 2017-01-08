@@ -1,0 +1,187 @@
+Section CHAMP
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Daniel Piechnick      19.0-5.0      1577     1911     2136
+Edward Okulicz        17.0-7.0       889     1977     1977
+Chris May             16.0-8.0      1140     2066     2039
+Esther Perrins        16.0-8.0      1120     1961     2008
+Andrew Fisher         16.0-8.0      1063     2150     2132
+Alastair Richards     16.0-8.0       979     2110     2076
+Cheah Siu Hean        15.0-9.0      1083     1950     1943
+Ryan Anderson         15.0-9.0       995     1752     1882
+Russell Honeybun      15.0-9.0       823     1786     1804
+Ron Baginski          15.0-9.0       558     1837     1863
+Ricky Purnomo         15.0-9.0        44     1822     1783
+Mythili Rudra         15.0-9.0        39     1666     1703
+Trevor Halsall        14.0-10.0     1028     1836     1915
+Cameron Farlow        14.0-10.0      925     1887     1872
+Bob Jackman           14.0-10.0      669     1801     1804
+Peter Kougi           14.0-10.0      554     2003     1949
+Nick Ivanovski        14.0-10.0      532     1662     1746
+Joanne Craig          14.0-10.0      441     1910     1888
+Helen Metaxas         14.0-10.0       61     1464     1586
+John Holgate          14.0-10.0       -3     1799     1764
+Matte Dunn            14.0-10.0      -36     1594     1564
+Victor Tung           14.0-10.0      -37     1618     1628
+Chris Ostrowski       14.0-10.0     -248     1339     1425
+Yeo Kian Hung         13.0-11.0      917     1961     1925
+Tan Jin Chor          13.0-11.0      493     1775     1771
+Rod Talbot            13.0-11.0      431     1740     1733
+Jane Taylor           13.0-11.0      384     1503     1652
+Heather Long          13.0-11.0      260     1496     1600
+Jane Brown            13.0-11.0      192     1493     1496
+Mark Smith            13.0-11.0      187     1695     1596
+Norma Fisher          13.0-11.0      148     1638     1585
+Ryan Sutton           13.0-11.0        7     1572     1571
+Dianne Brumby         13.0-11.0      -14     1675     1619
+Tony Hunt             13.0-11.0     -172     1636     1645
+Greg Pinchbeck        13.0-11.0     -292     1551     1497
+Edie Mueller          13.0-11.0     -398     1661     1679
+Michael McKenna       12.5-11.5      169     1774     1758
+Rene Chelton          12.5-11.5       93     1372     1428
+John Hamilton         12.0-12.0      234     1543     1508
+Graeme Lock Lee       12.0-12.0      199     1533     1551
+Oliver Jenner-O'Shea  12.0-12.0      197     1363     1481
+Natasha Podesser      12.0-12.0      195     1536     1624
+Carmel Dodd           12.0-12.0      134     1693     1695
+Trish Reynolds        12.0-12.0      101     1533     1586
+Olga Visser           12.0-12.0     -150     1426     1439
+Angie Pearse          12.0-12.0     -203     1393     1367
+Jan Hill              12.0-12.0     -246     1198     1370
+John Barker           12.0-12.0     -271     1501     1504
+Trish Brighton        12.0-12.0     -318     1413     1397
+Tim Mason             12.0-12.0     -419     1457     1507
+Jenny Brysha          12.0-12.0     -458     1301     1329
+Lexie Neale           12.0-12.0     -470     1211     1297
+Quentin Abbott        11.5-12.5     -232     1621     1492
+Karen Richards        11.0-13.0      801     1733     1727
+Gwen Lampre           11.0-13.0      149     1789     1595
+Ivor Zetler           11.0-13.0       92     1449     1493
+Therese Nichols       11.0-13.0       13     1430     1430
+Paul Richards AUS     11.0-13.0      -25     1506     1511
+Moana Nepia           11.0-13.0      -59     1393     1393
+Noel Barrett          11.0-13.0     -113     1435     1416
+Karrin Henderson      11.0-13.0     -262     1449     1426
+Caroline Scowcroft    11.0-13.0     -298     1326     1372
+Phillip Hamilton      11.0-13.0     -881     1347     1290
+Peter Bauer           11.0-13.0     -896     1442     1275
+Colleen Walker        11.0-13.0    -1028     1366     1285
+Carol Johnsen         10.0-14.0      493     1387     1479
+David Vanzyl          10.0-14.0      260     1559     1559
+Martin Rose           10.0-14.0     -147     1377     1443
+Anne Schick           10.0-14.0     -245     1263     1312
+Pat Schuberg          10.0-14.0     -328     1295     1334
+Jyoti Chandna         10.0-14.0     -507     1285     1333
+Martin Waterworth     10.0-14.0     -517     1364     1350
+Marie London          10.0-14.0     -700     1393     1320
+Tony Williams         10.0-14.0     -768     1228     1270
+Robin Andersen        10.0-14.0     -870     1332     1318
+Jan Serisier          10.0-14.0     -894     1445     1347
+Boots Moon            9.5-14.5      -560     1327     1273
+Peter Shaw            9.0-15.0      -135     1427     1461
+Judy Jones            9.0-15.0      -139     1572     1414
+Natalie Tadday        9.0-15.0      -152     1397     1359
+Richard Birch         9.0-15.0      -522     1157     1292
+Sharon Sorensen       9.0-15.0     -1292     1378     1293
+Ian Close             8.0-16.0      -529     1314     1314
+Dianne Gibson         8.0-16.0      -768     1474     1326
+Hanne Marks           8.0-16.0     -1304     1328     1224
+Owen Randall          7.0-17.0      -898     1289     1243
+Peter Griffiths       6.0-18.0      -653     1299     1263
+Julie Belle           5.0-19.0     -1212     1274     1166
+
+David Vanzyl          is unrated 
+Ian Close             is unrated 
+Moana Nepia           is unrated 
+Therese Nichols       is unrated 
+
+Section PLATE
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Don Hadley            19.0-5.0      1469     1380     1616
+Keri Heart            17.0-7.0      1059     1532     1626
+Lewis Hawkins         16.0-8.0       823     1401     1479
+Cheryl Michler        16.0-8.0       820     1444     1540
+David More            16.0-8.0       806     1345     1455
+Alex Boiko            15.0-9.0      1111     1613     1613
+Jeanette Hansen       15.0-9.0       410     1494     1480
+Paula Messer          14.5-9.5      1110     1508     1523
+Sue Gergelifi         14.5-9.5       539     1340     1464
+Barry Jordan          14.0-10.0      556     1512     1512
+Christine Foot        14.0-10.0      510     1501     1501
+Sue-Ellen Cooper      14.0-10.0      467     1077     1237
+Karyn Crease          14.0-10.0      164     1426     1388
+Nonie English         14.0-10.0      136     1381     1372
+Francoise Finlayson   14.0-10.0       74     1410     1410
+Hailey Sutton         14.0-10.0       22     1297     1311
+Deborah Dwyer         14.0-10.0     -135     1283     1283
+Janine Whittaker      13.0-11.0      584     1290     1367
+Antony Kimber         13.0-11.0      513     1516     1459
+Betty Foreman         13.0-11.0      276     1344     1337
+Yvonne Edwards        13.0-11.0      252     1225     1284
+Colleen Birch         13.0-11.0      219     1380     1380
+Sandy McConnell       13.0-11.0      161     1427     1354
+Margaret Bishop       13.0-11.0      116     1464     1332
+Nanette Reynolds      13.0-11.0       83     1338     1338
+Denise Smith          13.0-11.0      -91     1297     1297
+Sue Gordon            13.0-11.0     -298     1287     1287
+Lyndee Hill           13.0-11.0     -589     1444     1223
+Ivy Nicholls          13.0-11.0     -657     1457     1259
+Dorothy Barraclough   12.0-12.0      252     1397     1397
+Sunny Wright          12.0-12.0      233     1161     1228
+Khwanjai Thammaping   12.0-12.0      171     1179     1324
+Margaret Neal         12.0-12.0       68     1335     1335
+Marion Miller         12.0-12.0       45     1394     1394
+Sandra Elliott        12.0-12.0      -25     1332     1332
+Rhona Kenyon          12.0-12.0      -42     1564     1340
+Sue Fullerton         12.0-12.0      -98     1265     1265
+Kay Anderson          12.0-12.0     -188     1182     1223
+Raya Wilkinson        12.0-12.0     -242     1267     1290
+Rob Marotta           12.0-12.0     -271     1290     1290
+Glen Chandler         11.0-13.0      140     1437     1425
+Pam Bennett           11.0-13.0     -119     1060     1254
+Benjamin Lee          11.0-13.0     -120     1276     1276
+Susan Roberts         11.0-13.0     -137     1465     1327
+Arlene Williams       11.0-13.0     -207     1209     1243
+Liz Jackman           11.0-13.0     -253     1176     1220
+Veena Mohe            11.0-13.0     -386     1373     1255
+Jenny Coetzee         11.0-13.0     -568     1032     1150
+Anne Hough            10.0-14.0       42     1229     1224
+Ann Fiddler           10.0-14.0       36     1289     1289
+Barbara Joffe         10.0-14.0      -49     1336     1336
+Wayne Willis          10.0-14.0     -104     1143     1263
+Danny Khoury          10.0-14.0     -105     1274     1277
+Marg Harris-Walker    10.0-14.0     -105     1231     1231
+La'Reine Lang         10.0-14.0     -162     1271     1275
+Jacky Booth           10.0-14.0     -176     1440     1249
+George Khamis         10.0-14.0     -340     1318     1275
+Betty Egan            10.0-14.0     -346     1465     1303
+Michelle Sturzebechr  10.0-14.0     -498     1161     1161
+Ronnie Bennett        10.0-14.0     -836      728      928
+Balada Catanchin      9.0-15.0      -582     1235     1134
+Marisa Nuccitelli     9.0-15.0      -835     1308     1115
+Joan King             7.0-17.0     -1028     1322     1066
+Elize Plaganyi        6.0-18.0      -907     1318     1114
+Brenda Sloane         5.0-19.0     -1348     1360     1054
+Beth Goodwin          5.0-19.0     -1420      958      958
+
+Marion Miller         is unrated 
+Colleen Birch         is unrated 
+Barbara Joffe         is unrated 
+Barry Jordan          is unrated 
+Sandra Elliott        is unrated 
+Sue Gordon            is unrated 
+Deborah Dwyer         is unrated 
+Dorothy Barraclough   is unrated 
+Denise Smith          is unrated 
+Francoise Finlayson   is unrated 
+Alex Boiko            is unrated 
+Nanette Reynolds      is unrated 
+Ann Fiddler           is unrated 
+Christine Foot        is unrated 
+Margaret Neal         is unrated 
+Sue Fullerton         is unrated 
+Rob Marotta           is unrated 
+Michelle Sturzebechr  is unrated 
+Marg Harris-Walker    is unrated 
+Beth Goodwin          is unrated 
+Benjamin Lee          is unrated 
+

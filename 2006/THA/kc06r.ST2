@@ -1,0 +1,90 @@
+Section <bound method Section.getName of <wesparatinglib.Section object at 0x02ABF6D0>>
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Nigel Richards        21.0-6.0      1537     2090     2126
+Femi Awowade          19.0-8.0       838     1836     1922
+David Eldar           18.0-9.0      1516     2020     2076
+Komol Panyasoponlert  18.0-9.0      1242     2020     2110
+Cheah Siu Hean        18.0-9.0      1056     2016     2063
+Panupol Sujjayakorn   17.5-9.5      1355     2065     2112
+Nawapadol Sayavesa    17.0-10.0     1144     1905     2007
+Pakorn Nemitrmansuk   17.0-10.0      898     2078     2021
+Gerry Carter          17.0-10.0      429     1708     1794
+Tony Sim              17.0-10.0      422     1824     1877
+Charnwit Sukhu        16.5-10.5     1405     2015     2077
+Taewan Sutthasin      16.5-10.5     1285     1901     1983
+Akegapun Erbpras      16.0-11.0      869     1893     1937
+Karen Richards        16.0-11.0      650     1638     1824
+Atiruth Sakdiyakorn   16.0-11.0      630     1936     1981
+Wajid Iqbal           16.0-11.0      557     1657     1703
+Ricardo Gonzalez      16.0-11.0      292     1849     1811
+Sompong Polsongkram   16.0-11.0      220     1841     1839
+Andy Kurnia           16.0-11.0      151     2025     1950
+Robbie Onate          16.0-11.0     -374     1500     1439
+Theresa Brousson      15.5-11.5      122     1500     1645
+Marut Siriwangso      15.0-12.0      683     1856     1881
+Odette Rio            15.0-12.0      620     1897     1847
+Aaron Chong           15.0-12.0      532     1905     1897
+Alastair Richards     15.0-12.0      227     1768     1758
+Adrian Tamas          15.0-12.0      187     1732     1703
+Ricky Purnomo         15.0-12.0       45     1770     1763
+Marlon Prudencio      15.0-12.0        1     1808     1775
+Michael Tang          15.0-12.0      -83     1766     1703
+Jakkrit Klaphajone    14.5-12.5      341     1964     1903
+Ferdy Anthonius       14.5-12.5      221     1730     1671
+Hubert Wee            14.0-13.0      716     1829     1873
+Noppadol Dechat       14.0-13.0      510     1688     1711
+Paul Richards AUS     14.0-13.0      449     1707     1748
+Apirat Choomai        14.0-13.0      149     1780     1757
+Z Bye                 14.0-13.0      100     1500      694
+Y Bye                 14.0-13.0      100     1500      577
+Chatchawin Petchlert  14.0-13.0       79     1744     1676
+Vannitha Balasingam   14.0-13.0       79     1789     1659
+Kum Zi Peng           14.0-13.0       69     1773     1785
+Lim Li Wei            14.0-13.0       -1     1745     1751
+Yeo Kian Hung         14.0-13.0      -24     1785     1790
+Amnuay Ploysangngam   14.0-13.0     -336     1848     1721
+Arun Methaseth        14.0-13.0     -511     1733     1550
+Dianne Ward           14.0-13.0     -671     1602     1569
+Shim Yen Nee          13.0-14.0      418     1742     1685
+Charae Worapotpisut   13.0-14.0      235     1500     1536
+Louie De Guzman       13.0-14.0      177     1576     1682
+Daniel Srichawla      13.0-14.0      116     1500     1633
+Thien Termpaisit      13.0-14.0       93     1719     1698
+Sanmi Odelana         13.0-14.0       44     1562     1588
+Apithai Hemachudha    13.0-14.0       38     1637     1537
+Martin DeMello        13.0-14.0       33     1454     1547
+Ishtiaq Chishty       13.0-14.0      -36     1702     1728
+Radhika Mahalingaiah  13.0-14.0     -243     1190     1386
+Sanvaris Amorn        13.0-14.0     -253     1500     1412
+Prachya Pitapho       13.0-14.0     -565     1669     1487
+Paulette Yeoh         13.0-14.0     -869     1455     1434
+Aloysious Conzaga     13.0-14.0     -951     1588     1399
+Karthik Natarajan     12.0-15.0      167     1653     1741
+Sanjoy Gupta          12.0-15.0      133     1310     1434
+Tan Jin Chor          12.0-15.0      102     1606     1595
+Edie Mueller          12.0-15.0      -41     1700     1656
+Mallika Manakit       12.0-15.0      -42     1555     1477
+Lawrence Low          12.0-15.0     -329     1414     1481
+Barry Harridge        12.0-15.0     -372     1850     1535
+Weeraya Manakit       12.0-15.0     -401     1589     1348
+Visan Vongthanasun    12.0-15.0     -461     1615     1554
+Lennie D'Souza        12.0-15.0     -553     1090     1283
+Rex D'Souza           12.0-15.0     -888     1367     1238
+John Lam              11.0-16.0      220     1775     1748
+Prakash Menon         11.0-16.0      -37     1406     1442
+Dawuud Minsulaimaan   11.0-16.0     -313     1500     1285
+Sarah Law             11.0-16.0     -385     1503     1469
+Dorai Raja            11.0-16.0     -410     1605     1532
+Wilfredo Padua        11.0-16.0     -503     1453     1406
+Andree Prentice       11.0-16.0     -790     1386     1321
+Kunihiko Kuroda       11.0-16.0     -927     1468     1352
+Valliammah Thamb      10.0-17.0     -336     1262     1338
+Tan Khee Chiang       10.0-17.0     -424     1462     1449
+Jeffry Salim          10.0-17.0    -1340     1332     1200
+Warodom Geamsakul     10.0-17.0    -1450     1336     1193
+Weeranee Tanasarn     9.0-18.0     -1314     1279     1086
+Maneeda Tanasarn      9.0-18.0     -1467     1208     1110
+Ruby Sim              8.0-19.0      -526     1156     1278
+Sujit Ungpakorn       7.0-20.0     -1402     1278     1035
+Rhys McGuckin         6.0-21.0     -1324      915     1163
+Jerry Khoo            6.0-21.0     -2550     1500      781

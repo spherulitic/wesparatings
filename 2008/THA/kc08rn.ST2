@@ -1,0 +1,98 @@
+Section OPEN
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Ong Suanne            20.0-7.0       842     1947     2048
+Hubert Wee            19.0-8.0      1224     2046     2075
+Nigel Richards        18.5-8.5      1212     2262     2230
+Taewan Sutthasin      18.5-8.5       331     1826     1911
+Tony Sim              18.0-9.0       865     1940     2004
+Jason Katz-Brown      18.0-9.0       820     2023     2042
+Charnwit Sukhu        17.0-10.0     1258     1944     2003
+Mohammed Zafar        17.0-10.0      929     1774     1890
+Chris May             17.0-10.0      746     1982     1963
+Vannitha Balasingam   17.0-10.0      483     1775     1855
+Nawapadol Sayavesa    17.0-10.0      -86     2034     1952
+Odette Rio            16.0-11.0     1080     2029     2059
+Pakorn Nemitrmansuk   16.0-11.0      940     2065     2039
+Jakkrit Klaphajone    16.0-11.0      877     2038     2048
+Wellington Jighere    16.0-11.0      781     2201     2051
+Alastair Richards     16.0-11.0      484     1622     1727
+Marlon Prudencio      16.0-11.0      257     1744     1859
+Gerry Carter          16.0-11.0      209     1937     1958
+Thitipol Barameem     16.0-11.0       73     1758     1773
+Komol Panyasoponlert  15.5-11.5      999     2102     2083
+David Eldar           15.5-11.5      -20     2047     1992
+Adrian Tamas          15.0-12.0     1169     1901     1974
+Scott Chung           15.0-12.0      705     1635     1791
+Sompong Polsongkram   15.0-12.0      667     1757     1900
+Michael Tang          15.0-12.0      423     1726     1736
+Yeo Kian Hung         15.0-12.0      409     1895     1868
+Montien Choltichanan  15.0-12.0      325     1847     1735
+Tan Jin Chor          15.0-12.0       64     1656     1660
+Bob Jackman           15.0-12.0       12     1808     1833
+Simon Harinworrarob   15.0-12.0     -408     1853     1777
+Dianne Ward           14.5-12.5      154     1591     1649
+Thacha Koowirat       14.5-12.5      -23     1820     1827
+Panupol Sujjayakorn   14.0-13.0      629     2024     1984
+Chollapat Itthiaree   14.0-13.0      605     1820     1766
+Julian McKail         14.0-13.0      533     1925     1907
+Sean Chung            14.0-13.0      167     1708     1740
+Apirat Choomai        14.0-13.0      129     1768     1778
+Weera Saengsit        14.0-13.0       42     1824     1873
+Borom Kinthong        14.0-13.0     -515     1647     1649
+Cheah Siu Hean        13.5-13.5      631     2039     1981
+Charnrit Khongthan    13.5-13.5      399     1628     1727
+Mpakaboari Jack       13.5-13.5      330     1806     1806
+Ricky Purnomo         13.5-13.5      144     1760     1782
+Amnuay Ploysangngam   13.5-13.5      -96     1684     1698
+Sujit Ungpakorn       13.5-13.5     -373     1416     1290
+Pichai Limprasert     13.0-14.0      938     1804     1804
+Noppadol Dechat       13.0-14.0      448     1850     1818
+Thanapong Kukiet      13.0-14.0      283     1640     1668
+Jocelyn Lor           13.0-14.0      159     1803     1749
+Charae Worapotpisut   13.0-14.0       42     1715     1682
+Thavachai Tivava      13.0-14.0      -55     1744     1662
+Thien Termpaisit      13.0-14.0     -130     1609     1644
+Daniel Srichawla      13.0-14.0     -341     1478     1478
+Shim Yen Nee          13.0-14.0     -564     1774     1681
+Antonio Malonzo       13.0-14.0     -674     1652     1553
+Arun Methaseth        12.5-14.5     -178     1689     1678
+Ying Yong             12.5-14.5     -314      988      988
+Adele Tan             12.5-14.5     -568     1322     1340
+Alex Tan              12.5-14.5     -739     1795     1734
+Karen Richards        12.0-15.0      171     1762     1729
+Prithwiraj Mukherjee  12.0-15.0      126     1232     1438
+Wone Mamadou          12.0-15.0     -172     1544     1576
+Carol Johnsen         12.0-15.0     -266     1544     1513
+Lennie D'Souza        12.0-15.0     -437     1403     1506
+Paulette Yeoh         12.0-15.0     -497     1516     1553
+Sanmi Odelana         12.0-15.0     -668     1408     1489
+Olga Visser           12.0-15.0     -901     1410     1435
+Prachya Pitapho       11.5-15.5     -432     1669     1598
+Delio Dimaano         11.5-15.5     -479     1578     1443
+Thepparit Wichaya     11.5-15.5     -679     1774     1600
+Chaiwat Wuthinitikor  11.5-15.5     -709     1703     1636
+Atiruth Sakdiyakorn   11.0-16.0     -130     1970     1728
+Ojofeitimi Gbenga     11.0-16.0     -272     1517     1517
+Warodom Geamsakul     11.0-16.0     -367     1286     1385
+Tan Khee Chiang       11.0-16.0     -567     1462     1458
+Suthiraphan Assarat   11.0-16.0     -787     1528     1528
+Aloysious Conzaga     11.0-16.0    -1307     1426     1352
+Martin Waterworth     10.5-16.5     -793     1520     1425
+Sunny Wright          10.0-17.0     -221     1265     1304
+Kunihiko Kuroda       10.0-17.0     -723     1454     1430
+John Barker           10.0-17.0     -829     1543     1463
+Dorai Raja            10.0-17.0     -895     1605     1560
+Graham Buckingham     10.0-17.0    -1089     1436     1310
+Dawuud Minsulaimaan   10.0-17.0    -1215     1380     1368
+Khwanjai Thammaping   9.0-18.0     -1076     1220     1235
+Betty Eriksen         8.0-19.0     -1069     1349     1300
+Marites Carreon       6.5-20.5     -1101     1331     1222
+Maneeda Tanasarn      6.5-20.5     -1864     1180     1070
+
+Daniel Srichawla      is unrated 
+Mpakaboari Jack       is unrated 
+Ojofeitimi Gbenga     is unrated 
+Pichai Limprasert     is unrated 
+Suthiraphan Assarat   is unrated 
+Ying Yong             is unrated 
+

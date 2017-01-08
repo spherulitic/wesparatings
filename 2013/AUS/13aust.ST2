@@ -1,0 +1,297 @@
+Section CHAMP
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+David Eldar           18.0-6.0      1866     2125     2169
+Andrew Fisher         18.0-6.0      1310     2080     2100
+Esther Perrins        17.0-7.0      1076     1905     1968
+Alastair Richards     16.0-8.0       799     2110     2086
+Edie Mueller          16.0-8.0       646     1545     1734
+Michael McKenna       16.0-8.0       422     1811     1794
+Anand Bharadwaj       16.0-8.0       377     1762     1810
+Chris May             15.0-9.0       969     2113     2031
+Cameron Farlow        15.0-9.0       756     1914     1881
+Adam Kretschmer       15.0-9.0       448     1554     1694
+Helen Hynes           15.0-9.0       417     1625     1629
+Bob Jackman           15.0-9.0       295     1762     1789
+Peter Kougi           15.0-9.0       275     2075     1999
+Trevor Tao            15.0-9.0       118     1544     1617
+Trevor Halsall        14.0-10.0      742     1965     1888
+Yeo Kian Hung         14.0-10.0      483     1917     1916
+Ryan Sutton           14.0-10.0      482     1513     1696
+Quentin Abbott        14.0-10.0      447     1621     1621
+Carmel Dodd           14.0-10.0      346     1584     1673
+Kitty-Jean Laginha    14.0-10.0      344     1541     1651
+Naween Fernando       14.0-10.0      303     1951     1884
+Tan Jin Chor          14.0-10.0       97     1632     1649
+Anne Drew             14.0-10.0       53     1753     1667
+Sheryl Davidson       14.0-10.0     -291     1688     1518
+Richard Jeremy        13.5-10.5      950     1888     1891
+Joanne Craig          13.0-11.0      792     1900     1861
+Russell Honeybun      13.0-11.0      519     1877     1877
+Cheah Siu Hean        13.0-11.0      357     1899     1871
+Nick Ivanovski        13.0-11.0      340     1376     1616
+Ryan Anderson         13.0-11.0      267     1830     1752
+Natasha Podesser      13.0-11.0      163     1466     1536
+Carol Johnsen         13.0-11.0      107     1305     1387
+Dianne Gibson         13.0-11.0       65     1474     1474
+Dianne Brumby         13.0-11.0        8     1643     1687
+Tony Miller           13.0-11.0     -103     1555     1555
+Trish Reynolds        13.0-11.0     -197     1533     1533
+John Hamilton         13.0-11.0     -204     1583     1534
+Trish Brighton        13.0-11.0     -675     1413     1413
+Mythili Rudra         12.5-11.5     -186     1516     1533
+Graeme Lock Lee       12.0-12.0      548     1573     1609
+Rocky Sharma          12.0-12.0      310     1577     1586
+Mark Smith            12.0-12.0      292     1541     1592
+Michael Tang          12.0-12.0      284     1688     1712
+Rod Talbot            12.0-12.0      262     1808     1741
+Julie Gardiner        12.0-12.0       26     1523     1523
+Peter Shaw            12.0-12.0      -26     1531     1589
+Karen Richards        12.0-12.0      -61     1628     1585
+Karrin Henderson      12.0-12.0      -93     1449     1449
+Hanne Marks           12.0-12.0     -151     1383     1401
+Heather Long          12.0-12.0     -193     1466     1496
+Frank Csarics         12.0-12.0     -215     1415     1415
+Roberta Tait          12.0-12.0     -469     1310     1399
+Paul Lister           12.0-12.0     -529     1516     1400
+Marilyn Smith         11.5-12.5     -115     1418     1418
+Jyoti Chandna         11.0-13.0      319     1382     1523
+Dylan Sharma          11.0-13.0      216     1565     1631
+Tony Hunt             11.0-13.0       82     1731     1623
+Paul Richards AUS     11.0-13.0       55     1485     1518
+David More            11.0-13.0       20     1234     1373
+Jane Brown            11.0-13.0      -57     1493     1493
+Jan Serisier          11.0-13.0      -93     1398     1456
+Rene Chelton          11.0-13.0     -276     1350     1372
+Jenny Brysha          11.0-13.0     -282     1196     1301
+Martin Rose           11.0-13.0     -351     1349     1314
+Oliver Jenner-O'Shea  11.0-13.0     -366     1363     1363
+Carmel Doney          11.0-13.0     -369     1331     1421
+John Barker           11.0-13.0     -537     1392     1363
+Danny Khoury          11.0-13.0     -779     1170     1194
+Teresa Dean           10.0-14.0      163     1586     1491
+Liz Blanch            10.0-14.0       53     1431     1431
+Olga Visser           10.0-14.0      -89     1460     1443
+Jane Taylor           10.0-14.0     -109     1465     1513
+Garth van Vliet       10.0-14.0     -188     1397     1397
+Angie Pearse          10.0-14.0     -197     1334     1393
+Tengku Asri           10.0-14.0     -426     1526     1452
+Marie London          10.0-14.0     -476     1393     1393
+Dianne Davis          10.0-14.0     -481     1650     1376
+Tony Williams         10.0-14.0     -811     1205     1205
+Julie Belle           9.5-14.5      -524     1274     1274
+Glenys Logan          9.5-14.5      -772     1291     1291
+Ram Mohe              9.5-14.5      -800     1230     1230
+Guy Newsham           9.0-15.0      -198     1390     1390
+Lynn Wood             9.0-15.0      -294     1514     1458
+Martin Waterworth     9.0-15.0      -549     1387     1345
+Owen Randall          9.0-15.0      -565     1289     1289
+Lorraine Thomas       9.0-15.0      -576     1300     1300
+Lexie Neale           9.0-15.0      -604     1105     1211
+Lainie Mercieca       9.0-15.0      -611     1312     1312
+John Rider            8.0-16.0      -623     1304     1304
+Noel Barrett          8.0-16.0      -724     1594     1362
+Patricia Mitchell     8.0-16.0      -754     1274     1274
+Jan Hill              8.0-16.0     -1085     1198     1198
+Carolyn Watt          7.0-17.0      -443     1478     1441
+Yvonne Edwards        7.0-17.0      -752     1281     1244
+
+Dianne Gibson         is unrated 
+Frank Csarics         is unrated 
+Garth van Vliet       is unrated 
+Glenys Logan          is unrated 
+Guy Newsham           is unrated 
+Jan Hill              is unrated 
+Jane Brown            is unrated 
+John Rider            is unrated 
+Julie Belle           is unrated 
+Julie Gardiner        is unrated 
+Karrin Henderson      is unrated 
+Lainie Mercieca       is unrated 
+Liz Blanch            is unrated 
+Lorraine Thomas       is unrated 
+Marie London          is unrated 
+Marilyn Smith         is unrated 
+Oliver Jenner-O'Shea  is unrated 
+Owen Randall          is unrated 
+Patricia Mitchell     is unrated 
+Quentin Abbott        is unrated 
+Ram Mohe              is unrated 
+Tony Miller           is unrated 
+Tony Williams         is unrated 
+Trish Brighton        is unrated 
+Trish Reynolds        is unrated 
+
+Section PLATE
+NAME                  RECORD     SPREAD  OLD RAT  NEW RAT 
+Rhonda Rickard        17.0-7.0       734     1536     1536
+Peter Bauer           16.5-7.5       934     1299     1442
+Kay Anderson          16.5-7.5       458     1191     1319
+Sharon Sorensen       16.0-8.0       987     1210     1387
+Cheryl Michler        16.0-8.0       863     1135     1444
+Anne Bennett          16.0-8.0       781     1561     1561
+Paula Messer          16.0-8.0       573     1508     1508
+Margaret Berliner     15.5-8.5       645     1518     1518
+Lynne Jarvis          15.5-8.5        11     1417     1417
+Rhona Kenyon          15.0-9.0       764     1564     1564
+Keri Heart            15.0-9.0       603     1532     1532
+Kerry Reimers         15.0-9.0       516     1513     1513
+Sandra Masel          15.0-9.0       413     1479     1479
+Tim Mason             15.0-9.0       248     1307     1397
+Vicki Russell         15.0-9.0        -3     1379     1379
+Richard Phillipps     14.5-9.5       541     1493     1493
+Glen Chandler         14.5-9.5        55     1437     1437
+Natalie Tadday        14.0-10.0     1173     1205     1385
+Mary Morgan           14.0-10.0      460     1126     1268
+Jean Gillespie        14.0-10.0      359     1492     1492
+Susan Roberts         14.0-10.0      288     1465     1465
+Jeanette Hansen       14.0-10.0      278     1494     1494
+Sunny Wright          14.0-10.0      181     1187     1282
+Matthew Forno         14.0-10.0      102     1413     1413
+Charles Nemcsik       14.0-10.0      -14     1450     1450
+Arnold Appelhof       13.5-10.5      550     1549     1549
+Antony Kimber         13.0-11.0      641     1516     1516
+Fay Grose             13.0-11.0      364     1443     1443
+Mary Curtis           13.0-11.0      295     1487     1487
+Lyndee Hill           13.0-11.0      282     1444     1444
+Patti Ashwin          13.0-11.0      198     1478     1478
+Marjorie Giffen       13.0-11.0      136     1447     1447
+Ivy Nicholls          13.0-11.0      109     1457     1457
+Yvette Copley         13.0-11.0       44     1439     1439
+Karyn Crease          13.0-11.0        7     1426     1426
+Seksan Baramee        13.0-11.0      -82     1429     1429
+Ted De Boer           13.0-11.0     -235     1375     1375
+Carol Johnston        13.0-11.0     -355     1428     1428
+Anne Hough            12.5-11.5     -357     1060     1229
+Betty Foreman         12.0-12.0      513     1251     1344
+Janine Whittaker      12.0-12.0      342     1203     1379
+Lewis Hawkins         12.0-12.0      307     1468     1468
+Nonie English         12.0-12.0      282     1270     1381
+Hailey Sutton         12.0-12.0      153     1484     1484
+Liz Jackman           12.0-12.0      133     1187     1263
+Erica Williams        12.0-12.0      115     1454     1454
+Vonni Farlow          12.0-12.0       72      941     1217
+John McNaughton       12.0-12.0       25     1466     1466
+Sandra Woolard        12.0-12.0      -41     1424     1424
+Veena Mohe            12.0-12.0     -111     1373     1373
+Liz Catchpole         12.0-12.0     -181     1384     1384
+Virginia Christian    12.0-12.0     -355     1302     1302
+Jack Ashwin           12.0-12.0     -497     1364     1364
+Wendy Batt            11.5-12.5      134     1380     1380
+Norm Wheeler          11.5-12.5     -126     1391     1391
+Marion Merickel       11.5-12.5     -246     1361     1361
+Betty Egan            11.0-13.0      396     1465     1465
+Sandy McConnell       11.0-13.0      132     1427     1427
+Don Hadley            11.0-13.0      109     1316     1380
+La'Reine Lang         11.0-13.0       -6     1090     1271
+Jacky Booth           11.0-13.0      -40     1440     1440
+Raya Wilkinson        11.0-13.0     -137     1004     1267
+Gaile Clark           11.0-13.0     -240     1361     1361
+Robyn Corbel          11.0-13.0     -291     1362     1362
+Pauline Muller        11.0-13.0     -416     1379     1379
+Shekinah Giffen       11.0-13.0     -503     1289     1289
+Brenda Sloane         11.0-13.0     -526     1360     1360
+Rita Humphrey         11.0-13.0     -550     1251     1251
+Paula Brown           11.0-13.0     -840     1278     1278
+Arlene Williams       10.5-13.5     -300     1381     1381
+Margaret Bishop       10.0-14.0      188     1464     1464
+Laurel Burrows        10.0-14.0       90     1393     1393
+Roslyn Murphy         10.0-14.0       30     1378     1378
+Ann Bohan             10.0-14.0     -199     1398     1398
+Jenny Schafer         10.0-14.0     -219     1405     1405
+Trish Cearns          10.0-14.0     -220     1369     1369
+Shirley Pelham        10.0-14.0     -308     1314     1314
+Margaret Inglis       10.0-14.0     -329     1330     1330
+Ethel Eden            10.0-14.0     -417     1346     1346
+Wayne Willis          10.0-14.0     -430      851     1143
+Elize Plaganyi        10.0-14.0     -701     1318     1318
+Arie Holla            10.0-14.0     -942     1322     1322
+Sam van Vliet         9.0-15.0       190     1411     1411
+John Salmon           9.0-15.0       -47     1426     1426
+Ann Goodwin           9.0-15.0      -338     1375     1375
+Cherrill McKay        9.0-15.0      -367     1374     1374
+Barbara Clark         9.0-15.0      -373     1407     1407
+Jan Jones             9.0-15.0      -694     1332     1332
+Marisa Nuccitelli     8.0-16.0      -539     1308     1308
+Leonor Hellyar        8.0-16.0      -792     1288     1288
+Joan King             7.0-17.0      -764     1322     1322
+Danny Van Eekelen     6.0-18.0      -952     1303     1303
+Lucy Martin           6.0-18.0     -1285     1212     1212
+Balada Catanchin      5.0-19.0     -1436     1235     1235
+
+Ann Bohan             is unrated 
+Ann Goodwin           is unrated 
+Anne Bennett          is unrated 
+Antony Kimber         is unrated 
+Arie Holla            is unrated 
+Arlene Williams       is unrated 
+Arnold Appelhof       is unrated 
+Balada Catanchin      is unrated 
+Barbara Clark         is unrated 
+Betty Egan            is unrated 
+Brenda Sloane         is unrated 
+Carol Johnston        is unrated 
+Charles Nemcsik       is unrated 
+Cherrill McKay        is unrated 
+Danny Van Eekelen     is unrated 
+Elize Plaganyi        is unrated 
+Erica Williams        is unrated 
+Ethel Eden            is unrated 
+Fay Grose             is unrated 
+Gaile Clark           is unrated 
+Glen Chandler         is unrated 
+Hailey Sutton         is unrated 
+Ivy Nicholls          is unrated 
+Jack Ashwin           is unrated 
+Jacky Booth           is unrated 
+Jan Jones             is unrated 
+Jean Gillespie        is unrated 
+Jeanette Hansen       is unrated 
+Jenny Schafer         is unrated 
+Joan King             is unrated 
+John McNaughton       is unrated 
+John Salmon           is unrated 
+Karyn Crease          is unrated 
+Keri Heart            is unrated 
+Kerry Reimers         is unrated 
+Laurel Burrows        is unrated 
+Leonor Hellyar        is unrated 
+Lewis Hawkins         is unrated 
+Liz Catchpole         is unrated 
+Lucy Martin           is unrated 
+Lyndee Hill           is unrated 
+Lynne Jarvis          is unrated 
+Margaret Berliner     is unrated 
+Margaret Bishop       is unrated 
+Margaret Inglis       is unrated 
+Marion Merickel       is unrated 
+Marisa Nuccitelli     is unrated 
+Marjorie Giffen       is unrated 
+Mary Curtis           is unrated 
+Matthew Forno         is unrated 
+Norm Wheeler          is unrated 
+Patti Ashwin          is unrated 
+Paula Brown           is unrated 
+Paula Messer          is unrated 
+Pauline Muller        is unrated 
+Rhona Kenyon          is unrated 
+Rhonda Rickard        is unrated 
+Richard Phillipps     is unrated 
+Rita Humphrey         is unrated 
+Robyn Corbel          is unrated 
+Roslyn Murphy         is unrated 
+Sam van Vliet         is unrated 
+Sandra Masel          is unrated 
+Sandra Woolard        is unrated 
+Sandy McConnell       is unrated 
+Seksan Baramee        is unrated 
+Shekinah Giffen       is unrated 
+Shirley Pelham        is unrated 
+Susan Roberts         is unrated 
+Ted De Boer           is unrated 
+Trish Cearns          is unrated 
+Veena Mohe            is unrated 
+Vicki Russell         is unrated 
+Virginia Christian    is unrated 
+Wendy Batt            is unrated 
+Yvette Copley         is unrated 
+

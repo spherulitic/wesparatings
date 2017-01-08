@@ -78,7 +78,7 @@ class Tournament(object):
 		 
         elif len(line) == 1 or len(line) == 2: #ignore ridiculously short lines
 		  continue
-        elif (line[0] == '*') :
+        elif (line.strip()[0] == '*') :
           currentSection = Section(line[1:]) # Create section object
           self.addSection(currentSection)
           continue
@@ -261,7 +261,7 @@ class Tournament(object):
 		if (p.getLastPlayed().strftime('%Y%m%d') > 20051231): #exterminate the old
 			outFile.write("         {:20}{:5}{:5} {:9}{:6} \n".format(p.getName(), p.getCareerGames(), p.getNewRating(), p.getLastPlayed().strftime('%Y%m%d'), p.newRatingDeviation))
 	except ValueError:
-		print str(p.getName) + "'s lastPlayed was" + str(p.getLastPlayed())
+		print str(p.getName()) + "'s lastPlayed was" + str(p.getLastPlayed())
   #inserted p.getNewLastPlayed on 15th Dec
   #print "This tournament's rating is complete :)"
 class Section(object):
